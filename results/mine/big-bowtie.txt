@@ -1,0 +1,16 @@
+Top Items Removed:
+
+	#	-	Item	-	Rank	-	Nodes Removed	-	Clustering Coefficient
+
+	1.	1	-	8	-	18	-	0.0
+
+Clusters:
+
+	1
+	16, 17, 18, 9
+	2, 3, 4, 5, 6
+	10, 11, 12, 7
+	13, 14, 15, 8
+
+DB Index:				1.10705679862
+Average Silhouette Coefficient:	0.212301587302
