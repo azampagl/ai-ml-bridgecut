@@ -26,12 +26,6 @@ class BridgeCut(object):
         graph    -- the original graph
         clusters -- the clusters to analyze
         """
-        #for node in clusters[-1].nodes:
-        #    print(str(node) + ' ' + ', '.join([str(edge) for edge in node.edges]))
-        
-        #for cluster in clusters:
-        #    print(cluster)
-            
         # If we only have one cluster, then return inf!
         if len(clusters) < 2:
             return float('inf')
@@ -54,34 +48,12 @@ class BridgeCut(object):
                 paths = cluster.paths()
                 for node1, node2 in combinations(cluster.nodes, 2):
                     diams[cluster] = max(diams[cluster], cluster.dist(node1, node2, paths))
-        
-        #diams = {}
-        #for cluster in clusters:
-        #    diams[cluster] = 0.0
-        #    if len(cluster.nodes) > 1:
-        #        paths = cluster.paths()
-                #for node1 in paths:
-                #    for node2 in paths[node1]:
-                        #print(paths[node1][node2])
-                        #print(str(node1) + ' ' + ', '.join([str(key) for key in paths[node1].keys()]))
-                #print('Done')
-                #print(', '.join([str(node) for node in cluster.nodes]))
-                #for node1, node2 in combinations(cluster.nodes, 2):
-                #    print(str(node1) + ' ' + str(node2))
-                #for nodea in paths:
-                #    for nodeb in paths[nodea]:
-                #        print(str(nodea) + ' ' + str(nodeb))
-                #        print('\t' + ', '.join([str(node) for node in paths[nodea][nodeb][0]]))
-                
+                  
                 # If it weren't for directed graphs, we could use the combinations method.
                 for node1 in paths:
                     for node2 in paths[node1]:
                         if node1 != node2 and paths[node1][node2]:
                             diams[cluster] = max(diams[cluster], cluster.dist(node1, node2, paths))
-                #for node1, node2 in combinations(cluster.nodes, 2):
-                #    # For directed, this path might not even exist.
-                #    if node1 in paths and node2 in paths[node1] and paths[node1][node2]:
-                #        diams[cluster] = max(diams[cluster], cluster.dist(node1, node2, paths))
         
         # Find all the graphs paths.
         paths = graph.paths()
@@ -193,15 +165,8 @@ class BridgeCut(object):
         
         while graph.nodes:
             size = len(graph.nodes)
-            #print(graph)
-            #print(size)
-            #print('--')
             # Get the nodes after a split occurred.
             top, score, nodes = self.split(graph)
-            #print(top)
-            #if nodes:
-            #    print(', '.join([str(node) for node in nodes]))
-            #print('')
             
             # There was nothing to be split,
             #  remove the node that tried to destroy.
@@ -213,28 +178,13 @@ class BridgeCut(object):
             while nodes:
                 node = nodes.pop()
                 # Expand this node.
-                #print('Graph Start Before:\t' + str(graph))
                 cluster = graph.__class__.expand(node)
-                #print('Graph Start After:\t' + str(graph))
-                #print('Cluster:\t' + str(cluster))
-                #print(cluster.density())
-                #print(t)
                 
                 nodes = list(set(nodes).difference(cluster.nodes))
-                # The new cluster might contain some of the nodes that
-                #  were originally split.
-                #values = list(set([node.value for node in nodes]).difference(cluster.values.keys()))
-                #nodes = []
-                #for value in values:
-                #    nodes.append(graph.node(value))
                 
                 if cluster.density() > t:
-                    #print('Graph Remove Before:\t' + str(graph))
-                    #print('Cluster Remove Before:\t' + str(cluster))
                     clusters.append(cluster)
                     graph.remove(cluster)
-                    #print('Graph Remove End:\t' + str(graph))
-                    #print(str(node))
             
             # Append the top edge/vertex, score, nodes removed, and graph clustering coefficient.
             results.append((top, score, (size - len(graph.nodes)), graph.cluster_coeff()))
