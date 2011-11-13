@@ -18,7 +18,7 @@ class VertexBBridgeCut(BridgeCut):
         paths = graph.paths()
         nodes = graph.nodes
         
-        btwns_ranks = self.ranks(paths, nodes, lambda node: node.btwns(paths))
+        btwns_ranks = self.ranks(paths, nodes, lambda node: node.btwns(paths), lambda node: node.deg())
         
         max_score = 0.0
         max_node = None

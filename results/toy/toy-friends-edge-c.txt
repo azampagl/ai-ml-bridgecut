@@ -2,7 +2,7 @@ Top Items Removed:
 
 	#	-	Item	-	Rank	-	Nodes Removed	-	Clustering Coefficient
 
-	1.	Gates <-> Jobs	-	55	-	14	-	0.0
+	1.	Gates <-> Jobs	-	187	-	14	-	0.0
 
 Clusters:
 

@@ -2,15 +2,14 @@ Top Items Removed:
 
 	#	-	Item	-	Rank	-	Nodes Removed	-	Clustering Coefficient
 
-	1.	Gates	-	49	-	13	-	0.0
-	2.	Gates	-	1	-	1	-	0.0
+	1.	Gates	-	84	-	14	-	0.0
 
 Clusters:
 
+	Gates
 	Disney, Donkey, Fiona, Jobs, Mickey, Minnie, Shrek
 	Bernanke, Biden, Buffett, Clinton, Obama
 	Ballmer
-	Gates
 
 DB Index:				0.764874915483
 Average Silhouette Coefficient:	0.43493609565

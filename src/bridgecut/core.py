@@ -191,7 +191,7 @@ class BridgeCut(object):
         
         return results, clusters
     
-    def ranks(self, paths, items, func):
+    def ranks(self, paths, items, func, deg):
         """
         Ranks the scores based on a given method.
         
@@ -211,7 +211,13 @@ class BridgeCut(object):
         ranks = {}
         rank = 1
         for score in sorted(scores.iterkeys()):
+            # Sort the items by their degree.
+            scores[score] = sorted(scores[score], key=deg, reverse=True)
+            
+            last_deg = deg(scores[score][0])
             for item in scores[score]:
+                if deg(item) != last_deg:
+                    rank += 1
                 ranks[item] = rank
             rank += 1
         

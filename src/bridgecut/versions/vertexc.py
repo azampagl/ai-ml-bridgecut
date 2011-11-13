@@ -18,8 +18,8 @@ class VertexCBridgeCut(BridgeCut):
         paths = graph.paths()
         nodes = graph.nodes
         
-        btwns_ranks = self.ranks(paths, nodes, lambda node: node.btwns(paths))
-        bridge_ranks = self.ranks(paths, nodes, lambda node: node.bridge_coeff())
+        btwns_ranks = self.ranks(paths, nodes, lambda node: node.btwns(paths), lambda node: node.deg())
+        bridge_ranks = self.ranks(paths, nodes, lambda node: node.bridge_coeff(), lambda node: node.deg())
         
         max_score = 0.0
         max_node = None

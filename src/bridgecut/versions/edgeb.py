@@ -18,7 +18,7 @@ class EdgeBBridgeCut(BridgeCut):
         paths = graph.paths()
         edges = graph.edges()
         
-        btwns_ranks = self.ranks(paths, edges, lambda edge: edge.btwns(paths))
+        btwns_ranks = self.ranks(paths, edges, lambda edge: edge.btwns(paths), lambda edge: edge.node1.deg() + edge.node2.deg())
         
         max_score = 0.0
         max_edge = None
