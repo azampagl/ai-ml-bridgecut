@@ -73,11 +73,14 @@ class Node(object):
         
         return ret  
     
-    def deg(self):
+    def deg(self, d=1):
         """
         Returns the degree of this node.
+        
+        Key arguments:
+        d -- depth [optional]
         """
-        return len(self.edges)
+        return len(self.nbrs(d=d))
     
     def destroy(self):
         """
@@ -91,7 +94,7 @@ class Node(object):
         
         return nbrs
     
-    def nbrs(self, n=None):
+    def nbrs(self, n=None, d=1):
         """
         Finds this node's neighbors
         
@@ -101,13 +104,22 @@ class Node(object):
         
         Key arguments:
         n -- other node [optional]
+        d -- depth [optional]
         """
-        ret = []
-        for edge in self.edges:
-            ret.append(edge.node(self))
+        if d > 1:
+            nbrs = self.nbrs(None, d - 1)
+            enbrs = set()
+            for nbr in nbrs:
+                enbrs.union(nbr.nbrs(None, d - 1))
+            nbrs.append(self)
+            nbrs = enbrs.difference(nbrs)
+        else:
+            nbrs = set()
+            for edge in self.edges:
+                nbrs.union(edge.node(self))
         
         # Return common neighbors.
         if n:
-            return list(set(ret).intersection(n.nbrs()))
+            return list(nbrs.intersection(n.nbrs(d=d)))
             
-        return ret
+        return list(nbrs)

@@ -31,15 +31,18 @@ class Edge(object):
         """
         return str(self.node1) + ' <-> ' + str(self.node2)
     
-    def bridge_coeff(self):
+    def bridge_coeff(self, d=1):
         """
         Finds the bridging coefficient of this edge.
-        """
-        num = self.node1.deg() * self.node1.bridge_coeff() + \
-              self.node2.deg() * self.node2.bridge_coeff()
         
-        den = (self.node1.deg() + self.node2.deg()) * \
-              (len(self.node1.nbrs(self.node2)) + 1)
+        Key arguments:
+        d -- the depth [optional]
+        """
+        num = self.node1.deg(d) * self.node1.bridge_coeff(d) + \
+              self.node2.deg(d) * self.node2.bridge_coeff(d)
+        
+        den = (self.node1.deg(d) + self.node2.deg(d)) * \
+              (len(self.node1.nbrs(self.node2, d)) + 1)
         
         return num / float(den)
     
