@@ -1,0 +1,111 @@
+Top Items Removed:
+
+	#	-	Item	-	Rank	-	Nodes Removed	-	Clustering Coefficient
+
+	1.	Jondrette <-> MmeBurgon	-	9420	-	2	-	0.58889370107
+	2.	Gervais <-> LtGillenormand	-	8742	-	0	-	0.590938858527
+	3.	Gervais <-> Thenardier	-	8532	-	0	-	0.595349632938
+	4.	Cosette <-> Javert	-	6424	-	0	-	0.595792521204
+	5.	Javert <-> Labarre	-	6375	-	0	-	0.578085705145
+	6.	Labarre <-> Woman2	-	8456	-	3	-	0.602277297866
+	7.	Labarre <-> Magnon	-	5247	-	0	-	0.600855266511
+	8.	Cochepaille <-> MmeThenardier	-	6660	-	0	-	0.596812769883
+	9.	Cochepaille <-> LtGillenormand	-	6750	-	0	-	0.597425514981
+	10.	Magnon <-> MlleGillenormand	-	7200	-	2	-	0.617351958266
+	11.	Gavroche <-> Labarre	-	5661	-	0	-	0.617540005137
+	12.	Labarre <-> MmeHucheloup	-	4940	-	0	-	0.607531684604
+	13.	Labarre <-> MlleBaptistine	-	6804	-	0	-	0.607640800553
+	14.	Labarre <-> Napoleon	-	7685	-	0	-	0.617319430626
+	15.	LtGillenormand <-> Magnon	-	5192	-	0	-	0.612625219608
+	16.	Magnon <-> Thenardier	-	6394	-	0	-	0.607466489449
+	17.	Gavroche <-> Magnon	-	7301	-	0	-	0.601276013259
+	18.	Magnon <-> MlleVaubois	-	7130	-	2	-	0.626313543061
+	19.	Fantine <-> Zephine	-	4998	-	0	-	0.626864846895
+	20.	MmeThenardier <-> Zephine	-	4884	-	0	-	0.62782652467
+	21.	Cosette <-> Zephine	-	4680	-	0	-	0.625403107148
+	22.	Fauchelevent <-> Zephine	-	3978	-	0	-	0.628489498444
+	23.	Labarre <-> Zephine	-	4278	-	0	-	0.612193607047
+	24.	Cosette <-> Perpetue	-	6348	-	0	-	0.612811888547
+	25.	Labarre <-> Perpetue	-	6486	-	0	-	0.622792376469
+	26.	Labarre <-> Valjean	-	6028	-	11	-	0.576744561481
+	27.	BaronessT <-> Boulatruelle	-	3844	-	0	-	0.579279696911
+	28.	Boulatruelle <-> LtGillenormand	-	3192	-	0	-	0.580818265555
+	29.	LtGillenormand <-> MmeThenardier	-	2910	-	0	-	0.581562219457
+	30.	Labarre <-> LtGillenormand	-	3510	-	0	-	0.581140438509
+	31.	Bahorel <-> Labarre	-	3654	-	0	-	0.582918441843
+	32.	Gavroche <-> Thenardier	-	3162	-	0	-	0.576232924631
+	33.	LtGillenormand <-> Thenardier	-	3710	-	0	-	0.573176039995
+	34.	Fantine <-> Gillenormand	-	3616	-	0	-	0.575515221282
+	35.	MlleVaubois <-> Thenardier	-	3960	-	0	-	0.590552815267
+	36.	Gavroche <-> LtGillenormand	-	2660	-	0	-	0.55099938624
+	37.	LtGillenormand <-> MlleVaubois	-	3584	-	0	-	0.55355122037
+	38.	LtGillenormand <-> Marius	-	3503	-	4	-	0.59910225587
+	39.	Boulatruelle <-> Feuilly	-	1944	-	0	-	0.604753836993
+	40.	Babet <-> Mabeuf	-	1200	-	0	-	0.608083544384
+	41.	Labarre <-> Mabeuf	-	1224	-	0	-	0.609543760405
+	42.	Cosette <-> Mabeuf	-	1230	-	0	-	0.612686529586
+	43.	Cosette <-> MmeBurgon	-	645	-	0	-	0.61130505602
+	44.	Claquesous <-> MmeBurgon	-	516	-	0	-	0.610467626296
+	45.	Child2 <-> MmeBurgon	-	682	-	0	-	0.612582342781
+	46.	MmeBurgon <-> MmeThenardier	-	765	-	0	-	0.613053197265
+	47.	Gueulemer <-> MmeBurgon	-	1170	-	0	-	0.615679323411
+	48.	MmeBurgon <-> MotherPlutarch	-	896	-	0	-	0.619475666071
+	49.	Labarre <-> MmeBurgon	-	728	-	16	-	0.524063024063
+	50.	Babet <-> Cosette	-	114	-	0	-	0.520389220389
+	51.	Cosette <-> Fantine	-	180	-	0	-	0.516175266175
+	52.	Cosette <-> Gueulemer	-	175	-	0	-	0.515777465777
+	53.	Cosette <-> MmeThenardier	-	210	-	0	-	0.51193986194
+	54.	Cosette <-> MotherPlutarch	-	266	-	0	-	0.515147615148
+	55.	Claquesous <-> Cosette	-	273	-	0	-	0.522495222495
+	56.	MmeThenardier <-> Thenardier	-	112	-	0	-	0.525071175071
+	57.	Fantine <-> Thenardier	-	152	-	0	-	0.535443235443
+	58.	Fantine <-> Labarre	-	45	-	0	-	0.532882882883
+	59.	Babet <-> Labarre	-	55	-	0	-	0.531181557497
+	60.	Gueulemer <-> Labarre	-	88	-	0	-	0.531514597304
+	61.	Labarre <-> MmeThenardier	-	88	-	0	-	0.531325863679
+	62.	Labarre <-> MotherPlutarch	-	224	-	0	-	0.535496000202
+	63.	Claquesous <-> Labarre	-	192	-	10	-	0.454556143445
+	64.	MlleBaptistine <-> Napoleon	-	17	-	0	-	0.379453262787
+	65.	Cosette <-> Scaufflaire	-	15	-	0	-	0.347045855379
+	66.	Anzelma <-> Cosette	-	13	-	0	-	0.3430335097
+	67.	Anzelma <-> Thenardier	-	15	-	0	-	0.3180335097
+	68.	Cosette <-> Montparnasse	-	11	-	0	-	0.305379188713
+	69.	Cosette <-> Thenardier	-	12	-	0	-	0.329761904762
+	70.	Montparnasse <-> Thenardier	-	10	-	0	-	0.255379188713
+	71.	Cosette <-> Fauchelevent	-	8	-	0	-	0.226851851852
+	72.	Champtercier <-> MmeHucheloup	-	4	-	1	-	0.235576923077
+	73.	MmeHucheloup <-> Myriel	-	4	-	1	-	0.245
+	74.	CountessDeLo <-> MmeHucheloup	-	4	-	1	-	0.255208333333
+	75.	Count <-> MmeHucheloup	-	4	-	1	-	0.266304347826
+	76.	MmeHucheloup <-> MmeMagloire	-	4	-	6	-	0.360294117647
+	77.	Labarre <-> Thenardier	-	3	-	1	-	0.383928571429
+	78.	Labarre <-> Scaufflaire	-	3	-	1	-	0.410989010989
+	79.	Labarre <-> Simplice	-	3	-	1	-	0.442307692308
+	80.	Labarre <-> Montparnasse	-	3	-	1	-	0.479020979021
+	81.	Isabeau <-> Labarre	-	3	-	13	-	0.0
+
+Clusters:
+
+	Gribier, Jondrette
+	Javert, MotherInnocent, Woman2
+	Cochepaille, MlleGillenormand
+	Magnon, MmePontmercy
+	Bamatabois, Blacheville, Dahlia, Fameuil, Favourite, Gervais, Listolier, Perpetue, Tholomyes, Valjean, Zephine
+	Gavroche, Gillenormand, Marius, MlleVaubois
+	Bahorel, BaronessT, Bossuet, Brujon, Child1, Combeferre, Courfeyrac, Enjolras, Feuilly, Grantaire, Joly, LtGillenormand, Mabeuf, MmeBurgon, Prouvaire, Toussaint
+	Babet, Boulatruelle, Child2, Claquesous, Eponine, Fantine, Gueulemer, MmeThenardier, MotherPlutarch, Pontmercy
+	Champtercier
+	Myriel
+	CountessDeLo
+	Count
+	MmeMagloire
+	Cravatte, Geborand, MlleBaptistine, MmeHucheloup, Napoleon
+	Thenardier
+	Scaufflaire
+	Simplice
+	Montparnasse
+	Anzelma, Brevet, Champmathieu, Chenildieu, Cosette, Fauchelevent, Judge, Labarre, Marguerite, MmeDeR, OldMan, Woman1
+	Isabeau
+
+DB Index:				1.45979472669
+Average Silhouette Coefficient:	0.319076425861

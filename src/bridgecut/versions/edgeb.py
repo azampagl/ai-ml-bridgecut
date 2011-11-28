@@ -10,7 +10,7 @@ from bridgecut.core import BridgeCut
 
 class EdgeBBridgeCut(BridgeCut):
     
-    def split(self, graph):
+    def split(self, graph, d):
         """
         @see parent
         """
@@ -18,19 +18,11 @@ class EdgeBBridgeCut(BridgeCut):
         paths = graph.paths()
         edges = graph.edges()
         
-        btwns_ranks = self.ranks(paths, edges, lambda edge: edge.btwns(paths), lambda edge: edge.node1.deg() + edge.node2.deg())
+        btwns_ranks = self.ranks(paths, edges, lambda edge: edge.btwns(paths))
         
-        max_score = 0.0
-        max_edge = None
+        ranks = sorted([(edge, btwns_ranks[edge]) for edge in edges], key=lambda v: v[1], reverse=True)
         
-        # Find the edge with the best score.
-        for edge in edges:
-            score = btwns_ranks[edge]
-            if score > max_score:
-                max_score = score
-                max_edge = edge
+        # Determine the best edge.
+        best_edge, best_score = self.tiebreak(ranks, lambda edge: edge.node1.deg() + edge.node2.deg())  
         
-        if not max_edge:
-            return None, None, graph.nodes[0]
-        
-        return max_edge, max_score, max_edge.destroy()
+        return best_edge, best_score, best_edge.destroy()

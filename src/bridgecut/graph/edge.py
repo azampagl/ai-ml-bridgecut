@@ -44,6 +44,10 @@ class Edge(object):
         den = (self.node1.deg(d) + self.node2.deg(d)) * \
               (len(self.node1.nbrs(self.node2, d)) + 1)
         
+        # Possibility that the nodes have 0 neighbors at depth d.
+        if den == 0:
+            return 0.0
+        
         return num / float(den)
     
     def btwns(self, paths):

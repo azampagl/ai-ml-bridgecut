@@ -28,32 +28,34 @@ class Node(object):
         """
         return self.value  
     
-    def bridge_coeff(self):
+    def bridge_coeff(self, d=1):
         """
         Finds the bridging coefficient of this node.
-        """
-        if self.deg() == 0:
-            return 0.0
-        
+        """        
         num = 0.0
         
-        # Find the neighborhood, including myself.
-        nbrh = self.nbrs()
-        nbrh.insert(0, self)
+        # Find the neighborhood at depth d.
+        nbrh = self.nbrh(d=d)
+        nbrd = self.nbrs(d=d)
         
-        for n in self.nbrs():
+        # No neighbors at this depth.
+        if len(nbrd) == 0:
+            return 0.0
+        
+        for n in nbrd:
             if n.deg() == 1:
                 continue
             
             nbrs = list(nbrh)
             nbrs.remove(n)
-            edges = []
+            
+            edges = set()
             for nbr in nbrs:
-                edges.extend(nbr.edges)
+                edges.update(nbr.edges)
             
             num += len(set(n.edges).difference(edges)) / float(n.deg() - 1)
         
-        return num / float(self.deg())
+        return num / float(len(nbrd))
     
     def btwns(self, paths):
         """
@@ -94,6 +96,33 @@ class Node(object):
         
         return nbrs
     
+    def nbrh(self, d=1):
+        """
+        Finds the neighborhood up to a certain depth.
+        
+        Key arguments:
+        d -- the depth.
+        """
+        nbrh = [self]
+        
+        visited = {}
+        
+        q = [(self, 1)]
+            
+        while q:
+            node, depth = q.pop(0)
+                
+            # Add to visited list.
+            visited[node] = None
+                    
+            for nbr in node.nbrs():
+                if not nbr in visited:
+                    if depth < d:
+                        q.append((nbr, depth + 1))
+                    nbrh.append(nbr)
+        
+        return nbrh
+    
     def nbrs(self, n=None, d=1):
         """
         Finds this node's neighbors
@@ -107,19 +136,28 @@ class Node(object):
         d -- depth [optional]
         """
         if d > 1:
-            nbrs = self.nbrs(None, d - 1)
-            enbrs = set()
-            for nbr in nbrs:
-                enbrs.union(nbr.nbrs(None, d - 1))
-            nbrs.append(self)
-            nbrs = enbrs.difference(nbrs)
+            nbrs = []
+            visited = {}
+            
+            q = [(self, 1)]
+            
+            while q:
+                node, depth = q.pop(0)
+                
+                # Add to visited list.
+                visited[node] = None
+                    
+                for nbr in node.nbrs():
+                    if not nbr in visited:
+                        if depth < d:
+                            q.append((nbr, depth + 1))
+                        elif depth == d and not nbr in nbrs:
+                            nbrs.append(nbr)
         else:
-            nbrs = set()
-            for edge in self.edges:
-                nbrs.union(edge.node(self))
+            nbrs = [edge.node(self) for edge in self.edges]
         
         # Return common neighbors.
         if n:
-            return list(nbrs.intersection(n.nbrs(d=d)))
-            
-        return list(nbrs)
+            return list(set(nbrs).intersection(n.nbrs(d=d)))
+        
+        return nbrs

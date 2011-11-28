@@ -1,0 +1,24 @@
+Top Items Removed:
+
+	#	-	Item	-	Rank	-	Nodes Removed	-	Clustering Coefficient
+
+	1.	Magnon	-	1012	-	2	-	0.581838046485
+	2.	Cochepaille	-	833	-	2	-	0.594373662867
+	3.	Jondrette	-	765	-	2	-	0.611616552462
+	4.	Gavroche	-	704	-	1	-	0.600820057627
+	5.	LtGillenormand	-	616	-	2	-	0.601122877633
+	6.	Thenardier	-	612	-	2	-	0.618988122207
+	7.	Fantine	-	528	-	66	-	0.0
+
+Clusters:
+
+	MmePontmercy
+	MlleGillenormand
+	Gribier
+	Marius
+	MlleVaubois
+	Anzelma, Babet, Bahorel, Bamatabois, BaronessT, Blacheville, Bossuet, Boulatruelle, Brevet, Brujon, Champmathieu, Champtercier, Chenildieu, Child1, Child2, Claquesous, Combeferre, Cosette, Count, CountessDeLo, Courfeyrac, Cravatte, Dahlia, Enjolras, Eponine, Fameuil, Fauchelevent, Favourite, Feuilly, Geborand, Gervais, Grantaire, Gueulemer, Isabeau, Javert, Joly, Judge, Labarre, Listolier, Mabeuf, Marguerite, MlleBaptistine, MmeBurgon, MmeDeR, MmeHucheloup, MmeMagloire, MmeThenardier, Montparnasse, MotherInnocent, MotherPlutarch, Myriel, Napoleon, OldMan, Perpetue, Pontmercy, Prouvaire, Scaufflaire, Simplice, Tholomyes, Toussaint, Valjean, Woman1, Woman2, Zephine
+	Gillenormand
+
+DB Index:				1.58229327632
+Average Silhouette Coefficient:	0.213850929092

@@ -10,7 +10,7 @@ from bridgecut.core import BridgeCut
 
 class VertexBBridgeCut(BridgeCut):
     
-    def split(self, graph):
+    def split(self, graph, d):
         """
         @see parent
         """
@@ -18,21 +18,17 @@ class VertexBBridgeCut(BridgeCut):
         paths = graph.paths()
         nodes = graph.nodes
         
-        btwns_ranks = self.ranks(paths, nodes, lambda node: node.btwns(paths), lambda node: node.deg())
+        btwns_ranks = self.ranks(paths, nodes, lambda node: node.btwns(paths))
         
-        max_score = 0.0
-        max_node = None
+        ranks = sorted([(node, btwns_ranks[node]) for node in nodes], key=lambda v: v[1], reverse=True)
         
-        # Find the edge with the best score.
-        for node in nodes:
-            score = btwns_ranks[node]
-            if score > max_score:
-                max_score = score
-                max_node = node
+        # Determine the best node.
+        best_node, best_score = self.tiebreak(ranks, lambda node: node.deg())
         
-        # Find the nodes that were broken off.
-        nodes = max_node.destroy()
-        if nodes:
-            nodes.append(max_node)
-                
-        return max_node, max_score, nodes
+        nodes = best_node.destroy()
+        
+        # Remove this node from the graph.
+        graph.nodes.remove(best_node)
+        del graph.values[best_node.value]
+        
+        return best_node, best_score, nodes

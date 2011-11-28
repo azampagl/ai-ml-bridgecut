@@ -1,0 +1,87 @@
+Top Items Removed:
+
+	#	-	Item	-	Rank	-	Nodes Removed	-	Clustering Coefficient
+
+	1.	Magnon	-	736	-	2	-	0.581838046485
+	2.	Fantine	-	570	-	1	-	0.583695916784
+	3.	Cochepaille	-	434	-	2	-	0.596440712066
+	4.	Cosette	-	399	-	1	-	0.588808382771
+	5.	Jondrette	-	406	-	2	-	0.606427397316
+	6.	LtGillenormand	-	420	-	1	-	0.593619953062
+	7.	Thenardier	-	432	-	1	-	0.555808121945
+	8.	BaronessT	-	294	-	2	-	0.567935143077
+	9.	Labarre	-	216	-	9	-	0.62548742982
+	10.	MmeThenardier	-	130	-	2	-	0.618016808295
+	11.	Fauchelevent	-	132	-	1	-	0.618776035285
+	12.	Boulatruelle	-	90	-	2	-	0.638339275104
+	13.	Babet	-	45	-	1	-	0.6505
+	14.	Champtercier	-	11	-	1	-	0.663937479754
+	15.	Count	-	11	-	1	-	0.678017526455
+	16.	CountessDeLo	-	11	-	1	-	0.692848699764
+	17.	Cravatte	-	11	-	1	-	0.7086352657
+	18.	Geborand	-	11	-	1	-	0.725864197531
+	19.	Gillenormand	-	11	-	1	-	0.742361111111
+	20.	Marius	-	11	-	1	-	0.759625322997
+	21.	MmeMagloire	-	11	-	1	-	0.78167989418
+	22.	MotherInnocent	-	11	-	1	-	0.800745257453
+	23.	Myriel	-	11	-	1	-	0.837430555556
+	24.	Valjean	-	10	-	1	-	0.862037037037
+	25.	Child1	-	9	-	1	-	0.833375104428
+	26.	Toussaint	-	7	-	1	-	0.8577995578
+	27.	Bamatabois	-	8	-	1	-	0.82992979243
+	28.	Perpetue	-	8	-	1	-	0.860784929356
+	29.	Brujon	-	6	-	1	-	0.868778280543
+	30.	Child2	-	3	-	1	-	0.866391184573
+	31.	Claquesous	-	3	-	1	-	0.864772727273
+	32.	Gueulemer	-	3	-	1	-	0.832258064516
+	33.	MotherPlutarch	-	3	-	1	-	0.866666666667
+	34.	Gavroche	-	1	-	2	-	0.928571428571
+	35.	Javert	-	1	-	2	-	1.0
+	36.	MlleBaptistine	-	1	-	1	-	0.92
+	37.	MmeHucheloup	-	1	-	2	-	1.0
+	38.	Brevet	-	1	-	1	-	1.0
+	39.	Champmathieu	-	1	-	1	-	1.0
+	40.	Chenildieu	-	1	-	1	-	0.9
+	41.	Judge	-	1	-	2	-	1.0
+	42.	Blacheville	-	1	-	1	-	1.0
+	43.	Dahlia	-	1	-	1	-	1.0
+	44.	Fameuil	-	1	-	1	-	1.0
+	45.	Favourite	-	1	-	1	-	1.0
+	46.	Gervais	-	1	-	1	-	1.0
+	47.	Listolier	-	1	-	1	-	0.833333333333
+	48.	Tholomyes	-	1	-	2	-	1.0
+	49.	Bahorel	-	1	-	1	-	1.0
+	50.	Bossuet	-	1	-	1	-	1.0
+	51.	Combeferre	-	1	-	1	-	1.0
+	52.	Courfeyrac	-	1	-	1	-	1.0
+	53.	Enjolras	-	1	-	1	-	1.0
+	54.	Feuilly	-	1	-	1	-	1.0
+	55.	Joly	-	1	-	1	-	1.0
+	56.	Mabeuf	-	1	-	1	-	0.0
+	57.	MmeBurgon	-	1	-	2	-	0.0
+
+Clusters:
+
+	MmePontmercy
+	MlleGillenormand
+	Gribier
+	Grantaire
+	Montparnasse
+	MmeDeR
+	Marguerite
+	OldMan
+	Isabeau
+	Scaufflaire
+	Anzelma
+	Simplice
+	Pontmercy
+	Eponine
+	MlleVaubois
+	Woman2
+	Napoleon
+	Woman1
+	Zephine
+	Prouvaire
+
+DB Index:				inf
+Average Silhouette Coefficient:	1.0

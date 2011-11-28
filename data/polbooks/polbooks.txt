@@ -1,0 +1,441 @@
+1000 Years for Revenge	Empire
+Bush vs. the Beltway	Empire
+Charlie Wilson's War	Empire
+Charlie Wilson's War	1000 Years for Revenge
+Losing Bin Laden	Empire
+Losing Bin Laden	Bush vs. the Beltway
+Sleeping With the Devil	Empire
+Sleeping With the Devil	1000 Years for Revenge
+Sleeping With the Devil	Bush vs. the Beltway
+Sleeping With the Devil	Charlie Wilson's War
+Sleeping With the Devil	Losing Bin Laden
+The Man Who Warned America	Empire
+The Man Who Warned America	1000 Years for Revenge
+The Man Who Warned America	Losing Bin Laden
+The Man Who Warned America	Sleeping With the Devil
+Why America Slept	Bush vs. the Beltway
+Why America Slept	Sleeping With the Devil
+Why America Slept	The Man Who Warned America
+Ghost Wars	Charlie Wilson's War
+A National Party No More	Charlie Wilson's War
+A National Party No More	Ghost Wars
+Bush Country	Charlie Wilson's War
+Bush Country	The Man Who Warned America
+Bush Country	Ghost Wars
+Dereliction of Duty	Charlie Wilson's War
+Dereliction of Duty	Ghost Wars
+Dereliction of Duty	A National Party No More
+Dereliction of Duty	Bush Country
+Legacy	Charlie Wilson's War
+Legacy	The Man Who Warned America
+Legacy	Ghost Wars
+Legacy	A National Party No More
+Legacy	Bush Country
+Legacy	Dereliction of Duty
+Off with Their Heads	Charlie Wilson's War
+Off with Their Heads	Ghost Wars
+Off with Their Heads	Dereliction of Duty
+Off with Their Heads	Legacy
+Persecution	Charlie Wilson's War
+Persecution	Ghost Wars
+Persecution	A National Party No More
+Persecution	Dereliction of Duty
+Persecution	Legacy
+Persecution	Why America Slept
+Rumsfeld's War	Charlie Wilson's War
+Rumsfeld's War	Bush Country
+Rumsfeld's War	Legacy
+Breakdown	Charlie Wilson's War
+Breakdown	Bush Country
+Breakdown	Rumsfeld's War
+Betrayal	Charlie Wilson's War
+Betrayal	Dereliction of Duty
+Betrayal	Legacy
+Betrayal	Off with Their Heads
+Shut Up and Sing	Charlie Wilson's War
+Shut Up and Sing	The Man Who Warned America
+Shut Up and Sing	Legacy
+Meant To Be	Charlie Wilson's War
+Meant To Be	Bush Country
+The Right Man	Charlie Wilson's War
+The Right Man	Ghost Wars
+The Right Man	A National Party No More
+The Right Man	Dereliction of Duty
+Ten Minutes from Normal	Charlie Wilson's War
+Ten Minutes from Normal	Ghost Wars
+Ten Minutes from Normal	Bush Country
+Ten Minutes from Normal	Dereliction of Duty
+Hillary's Scheme	Charlie Wilson's War
+Hillary's Scheme	The Man Who Warned America
+Hillary's Scheme	Ghost Wars
+Hillary's Scheme	Dereliction of Duty
+The French Betrayal of America	Charlie Wilson's War
+The French Betrayal of America	Ghost Wars
+The French Betrayal of America	Legacy
+The French Betrayal of America	Ten Minutes from Normal
+Tales from the Left Coast	Charlie Wilson's War
+Tales from the Left Coast	Ghost Wars
+Tales from the Left Coast	A National Party No More
+Tales from the Left Coast	Legacy
+Tales from the Left Coast	The Right Man
+Hating America	Charlie Wilson's War
+Hating America	The Man Who Warned America
+Hating America	Persecution
+Hating America	Hillary's Scheme
+The Third Terrorist	Charlie Wilson's War
+The Third Terrorist	Ghost Wars
+The Third Terrorist	Dereliction of Duty
+The Third Terrorist	Persecution
+The Third Terrorist	Tales from the Left Coast
+Endgame	Charlie Wilson's War
+Endgame	Ghost Wars
+Endgame	A National Party No More
+Endgame	Dereliction of Duty
+Endgame	The French Betrayal of America
+Spin Sisters	Losing Bin Laden
+All the Shah's Men	Losing Bin Laden
+All the Shah's Men	The Man Who Warned America
+All the Shah's Men	Dereliction of Duty
+All the Shah's Men	Off with Their Heads
+Dangerous Dimplomacy	Losing Bin Laden
+Dangerous Dimplomacy	Why America Slept
+The Price of Loyalty	Losing Bin Laden
+The Price of Loyalty	Dangerous Dimplomacy
+House of Bush, House of Saud	Ghost Wars
+House of Bush, House of Saud	Legacy
+House of Bush, House of Saud	Off with Their Heads
+House of Bush, House of Saud	The French Betrayal of America
+The Death of Right and Wrong	House of Bush, House of Saud
+The Death of Right and Wrong	Ghost Wars
+The Death of Right and Wrong	Bush Country
+The Death of Right and Wrong	Legacy
+The Death of Right and Wrong	The French Betrayal of America
+The O'Reilly Factor	Useful Idiots
+The O'Reilly Factor	Ghost Wars
+The O'Reilly Factor	Bush Country
+Let Freedom Ring	Useful Idiots
+Let Freedom Ring	The O'Reilly Factor
+Let Freedom Ring	Legacy
+Those Who Trespass	Useful Idiots
+Those Who Trespass	Ghost Wars
+Those Who Trespass	Bush Country
+Those Who Trespass	The O'Reilly Factor
+Those Who Trespass	The Death of Right and Wrong
+Bias	Useful Idiots
+Bias	Bush Country
+Bias	The O'Reilly Factor
+Bias	Legacy
+Bias	Those Who Trespass
+Bias	The Death of Right and Wrong
+Slander	Useful Idiots
+Slander	Bush Country
+Slander	The O'Reilly Factor
+Slander	Legacy
+Slander	Bias
+Slander	The Death of Right and Wrong
+The Savage Nation	Ghost Wars
+The Savage Nation	The O'Reilly Factor
+The Savage Nation	Legacy
+The Savage Nation	Off with Their Heads
+The Savage Nation	The Right Man
+The Savage Nation	Hillary's Scheme
+The Savage Nation	Slander
+The Savage Nation	Tales from the Left Coast
+The Savage Nation	Hating America
+The Savage Nation	The Third Terrorist
+The Savage Nation	Endgame
+Deliver Us from Evil	Ghost Wars
+Deliver Us from Evil	A National Party No More
+Deliver Us from Evil	The Savage Nation
+Deliver Us from Evil	Legacy
+Deliver Us from Evil	Let Freedom Ring
+Deliver Us from Evil	Endgame
+Give Me a Break	Ghost Wars
+Give Me a Break	The Savage Nation
+Give Me a Break	Off with Their Heads
+Give Me a Break	Slander
+The Enemy Within	Ghost Wars
+The Enemy Within	The O'Reilly Factor
+The Enemy Within	Off with Their Heads
+The Enemy Within	Give Me a Break
+The Real America	Ghost Wars
+The Real America	The Savage Nation
+The Real America	The O'Reilly Factor
+The Real America	Legacy
+The Real America	Off with Their Heads
+Who's Looking Out for You?	Ghost Wars
+Who's Looking Out for You?	A National Party No More
+Who's Looking Out for You?	The Savage Nation
+Who's Looking Out for You?	Dereliction of Duty
+Who's Looking Out for You?	The Third Terrorist
+The Official Handbook Vast Right Wing Conspiracy	Ghost Wars
+The Official Handbook Vast Right Wing Conspiracy	Legacy
+Power Plays	A National Party No More
+Power Plays	The Savage Nation
+Power Plays	Deliver Us from Evil
+Power Plays	Dereliction of Duty
+Power Plays	Legacy
+Power Plays	Off with Their Heads
+Power Plays	Give Me a Break
+Power Plays	Let Freedom Ring
+Power Plays	Those Who Trespass
+Power Plays	Betrayal
+Power Plays	The Death of Right and Wrong
+Power Plays	Who's Looking Out for You?
+Power Plays	The Official Handbook Vast Right Wing Conspiracy
+Power Plays	The French Betrayal of America
+Power Plays	Tales from the Left Coast
+Power Plays	The Third Terrorist
+Power Plays	Endgame
+Arrogance	A National Party No More
+Arrogance	The Right Man
+The Perfect Wife	A National Party No More
+The Perfect Wife	The Right Man
+The Perfect Wife	The Price of Loyalty
+The Perfect Wife	Arrogance
+The Bushes	A National Party No More
+The Bushes	Dereliction of Duty
+Things Worth Fighting For	A National Party No More
+Surprise, Security, the American Experience	A National Party No More
+Surprise, Security, the American Experience	Hillary's Scheme
+Surprise, Security, the American Experience	Things Worth Fighting For
+Allies	The Savage Nation
+Allies	The Right Man
+Allies	Tales from the Left Coast
+Allies	The Third Terrorist
+Why Courage Matters	The Savage Nation
+Why Courage Matters	Deliver Us from Evil
+Why Courage Matters	Legacy
+Why Courage Matters	Power Plays
+Why Courage Matters	The French Betrayal of America
+Why Courage Matters	Endgame
+Hollywood Interrupted	Bush Country
+Hollywood Interrupted	Legacy
+Hollywood Interrupted	Rumsfeld's War
+Hollywood Interrupted	Meant To Be
+Fighting Back	Dereliction of Duty
+Fighting Back	Meant To Be
+Fighting Back	The Enemy Within
+We Will Prevail	Off with Their Heads
+We Will Prevail	Fighting Back
+We Will Prevail	The Right Man
+We Will Prevail	Arrogance
+We Will Prevail	The Perfect Wife
+The Faith of George W Bush	Persecution
+The Faith of George W Bush	Why America Slept
+The Faith of George W Bush	Dangerous Dimplomacy
+The Faith of George W Bush	The Perfect Wife
+The Faith of George W Bush	The Bushes
+The Faith of George W Bush	Things Worth Fighting For
+The Faith of George W Bush	Surprise, Security, the American Experience
+Downsize This!	Rise of the Vulcans
+Stupid White Men	Rise of the Vulcans
+Rush Limbaugh Is a Big Fat Idiot	Rise of the Vulcans
+Rush Limbaugh Is a Big Fat Idiot	Downsize This!
+The Best Democracy Money Can Buy	Rise of the Vulcans
+The Best Democracy Money Can Buy	Downsize This!
+The Best Democracy Money Can Buy	Rush Limbaugh Is a Big Fat Idiot
+The Culture of Fear	The Faith of George W Bush
+The Culture of Fear	Things Worth Fighting For
+The Culture of Fear	Surprise, Security, the American Experience
+America Unbound	The Culture of Fear
+America Unbound	The Faith of George W Bush
+America Unbound	Things Worth Fighting For
+The Choice	The Culture of Fear
+The Choice	Spin Sisters
+The Choice	Dangerous Dimplomacy
+The Great Unraveling	The Culture of Fear
+The Great Unraveling	America Unbound
+The Great Unraveling	The Choice
+The Great Unraveling	Dangerous Dimplomacy
+Rogue Nation	The Culture of Fear
+Rogue Nation	The Faith of George W Bush
+Rogue Nation	America Unbound
+Soft Power	The Culture of Fear
+Soft Power	The Faith of George W Bush
+Soft Power	America Unbound
+Soft Power	Things Worth Fighting For
+Colossus	The Culture of Fear
+Colossus	The Choice
+Colossus	Dangerous Dimplomacy
+The Sorrows of Empire	Why America Slept
+The Sorrows of Empire	Rogue Nation
+The Sorrows of Empire	Colossus
+Against All Enemies	The Sorrows of Empire
+Against All Enemies	Spin Sisters
+Against All Enemies	The Choice
+Against All Enemies	The Perfect Wife
+Against All Enemies	Colossus
+American Dynasty	The Sorrows of Empire
+American Dynasty	Against All Enemies
+American Dynasty	The Choice
+American Dynasty	Dangerous Dimplomacy
+American Dynasty	The Price of Loyalty
+Big Lies	The Sorrows of Empire
+Big Lies	Against All Enemies
+Big Lies	American Dynasty
+Big Lies	The Choice
+Big Lies	Dangerous Dimplomacy
+Big Lies	The Price of Loyalty
+The Lies of George W. Bush	The Sorrows of Empire
+The Lies of George W. Bush	Against All Enemies
+The Lies of George W. Bush	American Dynasty
+The Lies of George W. Bush	Big Lies
+The Lies of George W. Bush	Dangerous Dimplomacy
+The Lies of George W. Bush	The Price of Loyalty
+The Lies of George W. Bush	Colossus
+Worse Than Watergate	The Sorrows of Empire
+Worse Than Watergate	Against All Enemies
+Worse Than Watergate	The Lies of George W. Bush
+Worse Than Watergate	The Choice
+Worse Than Watergate	Dangerous Dimplomacy
+Worse Than Watergate	The Price of Loyalty
+Worse Than Watergate	The Perfect Wife
+Worse Than Watergate	Allies
+Plan of Attack	The Sorrows of Empire
+Plan of Attack	The Lies of George W. Bush
+Plan of Attack	The Faith of George W Bush
+Plan of Attack	Dangerous Dimplomacy
+Plan of Attack	Meant To Be
+Plan of Attack	The Price of Loyalty
+Plan of Attack	Worse Than Watergate
+Bush at War	The Sorrows of Empire
+Bush at War	Against All Enemies
+Bush at War	Big Lies
+Bush at War	The Lies of George W. Bush
+Bush at War	The Price of Loyalty
+The New Pearl Harbor	The Sorrows of Empire
+The New Pearl Harbor	Against All Enemies
+The New Pearl Harbor	Big Lies
+The New Pearl Harbor	The Lies of George W. Bush
+The New Pearl Harbor	Dangerous Dimplomacy
+Bushwomen	The Sorrows of Empire
+Bushwomen	Against All Enemies
+Bushwomen	The Choice
+Bushwomen	Dangerous Dimplomacy
+The Bubble of American Supremacy	The Sorrows of Empire
+Living History	The Sorrows of Empire
+Living History	Against All Enemies
+Living History	American Dynasty
+Living History	Big Lies
+Living History	The Lies of George W. Bush
+Living History	Dangerous Dimplomacy
+Living History	The Price of Loyalty
+Living History	Worse Than Watergate
+The Politics of Truth	The Sorrows of Empire
+The Politics of Truth	American Dynasty
+The Politics of Truth	The Lies of George W. Bush
+The Politics of Truth	Dangerous Dimplomacy
+The Politics of Truth	Worse Than Watergate
+Fanatics and Fools	Against All Enemies
+Fanatics and Fools	Big Lies
+Fanatics and Fools	The Lies of George W. Bush
+Fanatics and Fools	The Choice
+Fanatics and Fools	American Dynasty
+Fanatics and Fools	Downsize This!
+Fanatics and Fools	Dangerous Dimplomacy
+Fanatics and Fools	Rush Limbaugh Is a Big Fat Idiot
+Fanatics and Fools	Worse Than Watergate
+Fanatics and Fools	The New Pearl Harbor
+Fanatics and Fools	The Bubble of American Supremacy
+Fanatics and Fools	Living History
+Fanatics and Fools	The Politics of Truth
+Bushwhacked	Against All Enemies
+Bushwhacked	Why America Slept
+Bushwhacked	The Faith of George W Bush
+Bushwhacked	America Unbound
+Bushwhacked	The Choice
+Disarming Iraq	Against All Enemies
+Disarming Iraq	American Dynasty
+Disarming Iraq	The Choice
+Disarming Iraq	Fanatics and Fools
+Disarming Iraq	Downsize This!
+Disarming Iraq	Dangerous Dimplomacy
+Disarming Iraq	Stupid White Men
+Disarming Iraq	Worse Than Watergate
+Disarming Iraq	The Bubble of American Supremacy
+Lies and the Lying Liars Who Tell Them	Against All Enemies
+Lies and the Lying Liars Who Tell Them	Big Lies
+Lies and the Lying Liars Who Tell Them	Fanatics and Fools
+Lies and the Lying Liars Who Tell Them	The Politics of Truth
+MoveOn's 50 Ways to Love Your Country	Against All Enemies
+MoveOn's 50 Ways to Love Your Country	Big Lies
+MoveOn's 50 Ways to Love Your Country	The Choice
+MoveOn's 50 Ways to Love Your Country	Fanatics and Fools
+The Buying of the President 2004	Against All Enemies
+The Buying of the President 2004	American Dynasty
+The Buying of the President 2004	The Choice
+The Buying of the President 2004	Fanatics and Fools
+The Buying of the President 2004	Disarming Iraq
+The Buying of the President 2004	MoveOn's 50 Ways to Love Your Country
+Perfectly Legal	Against All Enemies
+Perfectly Legal	The Choice
+Perfectly Legal	Colossus
+Hegemony or Survival	Against All Enemies
+Hegemony or Survival	Big Lies
+Hegemony or Survival	The Lies of George W. Bush
+Hegemony or Survival	The Price of Loyalty
+Hegemony or Survival	Perfectly Legal
+Hegemony or Survival	The New Pearl Harbor
+The Exception to the Rulers	Against All Enemies
+The Exception to the Rulers	American Dynasty
+The Exception to the Rulers	The Lies of George W. Bush
+Freethinkers	American Dynasty
+Freethinkers	The Choice
+Freethinkers	Disarming Iraq
+Freethinkers	Dangerous Dimplomacy
+Had Enough?	American Dynasty
+Had Enough?	Fanatics and Fools
+Had Enough?	Freethinkers
+It's Still the Economy, Stupid!	American Dynasty
+It's Still the Economy, Stupid!	Had Enough?
+It's Still the Economy, Stupid!	Stupid White Men
+We're Right They're Wrong	American Dynasty
+We're Right They're Wrong	The Choice
+We're Right They're Wrong	Fanatics and Fools
+We're Right They're Wrong	Had Enough?
+What Liberal Media?	American Dynasty
+What Liberal Media?	The Choice
+What Liberal Media?	Fanatics and Fools
+What Liberal Media?	Disarming Iraq
+What Liberal Media?	We're Right They're Wrong
+What Liberal Media?	The Bubble of American Supremacy
+The Clinton Wars	American Dynasty
+The Clinton Wars	Big Lies
+The Clinton Wars	Lies and the Lying Liars Who Tell Them
+The Clinton Wars	Hegemony or Survival
+Weapons of Mass Deception	American Dynasty
+Weapons of Mass Deception	Big Lies
+Weapons of Mass Deception	The Choice
+Weapons of Mass Deception	Fanatics and Fools
+Weapons of Mass Deception	Freethinkers
+Weapons of Mass Deception	Downsize This!
+Weapons of Mass Deception	Rise of the Vulcans
+Weapons of Mass Deception	Dangerous Dimplomacy
+Weapons of Mass Deception	Rush Limbaugh Is a Big Fat Idiot
+Weapons of Mass Deception	The Best Democracy Money Can Buy
+Weapons of Mass Deception	Perfectly Legal
+Dude, Where's My Country?	American Dynasty
+Dude, Where's My Country?	The Choice
+Dude, Where's My Country?	Fanatics and Fools
+Dude, Where's My Country?	Disarming Iraq
+Dude, Where's My Country?	We're Right They're Wrong
+Dude, Where's My Country?	The Clinton Wars
+Dude, Where's My Country?	Weapons of Mass Deception
+Dude, Where's My Country?	Rush Limbaugh Is a Big Fat Idiot
+Dude, Where's My Country?	The New Pearl Harbor
+Dude, Where's My Country?	Hegemony or Survival
+Dude, Where's My Country?	The Politics of Truth
+Thieves in High Places	Fanatics and Fools
+Thieves in High Places	Disarming Iraq
+Thieves in High Places	Had Enough?
+Thieves in High Places	Dude, Where's My Country?
+Thieves in High Places	Stupid White Men
+Shrub	Freethinkers
+Shrub	Had Enough?
+Shrub	It's Still the Economy, Stupid!
+Shrub	The Official Handbook Vast Right Wing Conspiracy
+Buck Up Suck Up	The Great Unraveling
+The Future of Freedom	The Great Unraveling
+The Future of Freedom	Soft Power
+The Future of Freedom	Buck Up Suck Up

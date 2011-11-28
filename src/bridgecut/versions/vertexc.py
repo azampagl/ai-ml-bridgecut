@@ -10,7 +10,7 @@ from bridgecut.core import BridgeCut
 
 class VertexCBridgeCut(BridgeCut):
     
-    def split(self, graph):
+    def split(self, graph, d):
         """
         @see parent
         """
@@ -18,22 +18,32 @@ class VertexCBridgeCut(BridgeCut):
         paths = graph.paths()
         nodes = graph.nodes
         
-        btwns_ranks = self.ranks(paths, nodes, lambda node: node.btwns(paths), lambda node: node.deg())
-        bridge_ranks = self.ranks(paths, nodes, lambda node: node.bridge_coeff(), lambda node: node.deg())
+        btwns_ranks = self.ranks(paths, nodes, lambda node: node.btwns(paths))
+        bridge_ranks = self.ranks(paths, nodes, lambda node: node.bridge_coeff())
         
-        max_score = 0.0
-        max_node = None
+        ranks = sorted([(node, btwns_ranks[node] * bridge_ranks[node]) for node in nodes], key=lambda v: v[1], reverse=True)
         
-        # Find the edge with the best score.
-        for node in nodes:
-            score = btwns_ranks[node] * bridge_ranks[node]
-            if score > max_score:
-                max_score = score
-                max_node = node
+        if d > 1:
+            # Find the top % of ranked items.
+            nodes = [rank[0] for rank in ranks[:int(len(ranks) * self.__class__.TIER + 1)]]
+            # Iteratively find the ranks at each depth up to d.
+            bridge_reranks = {}
+            for node in nodes:
+                bridge_reranks[node] = bridge_ranks[node]      
+            for i in range(2, d + 1):
+                tmp_ranks = self.ranks(paths, nodes, lambda node: node.bridge_coeff(i))
+                for node in tmp_ranks:
+                    bridge_reranks[node] += tmp_ranks[node]
+            # Find the new ranks.
+            ranks = sorted([(node, btwns_ranks[node] * bridge_reranks[node]) for node in nodes], key=lambda v: v[1], reverse=True)
         
-        # Find the nodes that were broken off.
-        nodes = max_node.destroy()
-        if nodes:
-            nodes.append(max_node)
+        # Determine the best node.
+        best_node, best_score = self.tiebreak(ranks, lambda node: node.deg())        
         
-        return max_node, max_score, nodes
+        nodes = best_node.destroy()
+        
+        # Remove this node from the graph.
+        graph.nodes.remove(best_node)
+        del graph.values[best_node.value]
+        
+        return best_node, best_score, nodes

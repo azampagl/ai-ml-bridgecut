@@ -9,6 +9,9 @@ from lib.util import combinations, product
 
 class BridgeCut(object):
     
+    # What tier are considered during re-ranking.
+    TIER = 0.2
+    
     # Different versions of the algorithm..
     VERSIONS = {
                 'edge-c': (['versions', 'edgec'], 'EdgeCBridgeCut'), # Edge with the highest Bridging Centrality.
@@ -151,12 +154,13 @@ class BridgeCut(object):
         """
         self.graph = graph
     
-    def execute(self, t):
+    def execute(self, t, d):
         """
         Cluster the graph based on bridges.
         
         Key arguments:
         t -- density threshold
+        d -- depth
         """
         # Deep copy the graph for multiple execution.
         graph = self.graph.copy()
@@ -166,14 +170,7 @@ class BridgeCut(object):
         
         while graph.nodes:
             size = len(graph.nodes)
-            top, score, nodes = self.split(graph)
-            
-            # There was nothing to be split,
-            #  remove the node that tried to destroy.
-            if not nodes:
-                cluster = graph.__class__.expand(top)
-                clusters.append(cluster)
-                graph.remove(cluster)
+            top, score, nodes = self.split(graph, d)
                         
             while nodes:
                 node = nodes.pop()
@@ -191,7 +188,7 @@ class BridgeCut(object):
         
         return results, clusters
     
-    def ranks(self, paths, items, func, deg):
+    def ranks(self, paths, items, func):
         """
         Ranks the scores based on a given method.
         
@@ -211,14 +208,27 @@ class BridgeCut(object):
         ranks = {}
         rank = 1
         for score in sorted(scores.iterkeys()):
-            # Sort the items by their degree.
-            scores[score] = sorted(scores[score], key=deg, reverse=True)
-            
-            last_deg = deg(scores[score][0])
             for item in scores[score]:
-                if deg(item) != last_deg:
-                    rank += 1
                 ranks[item] = rank
             rank += 1
         
         return ranks
+    
+    def tiebreak(self, ranks, func):
+        """
+        Finds the best item out 
+        Key arguments:
+        ranks -- rankings
+        """
+        best_item = ranks[0][0]
+        best_score = ranks[0][1]
+        # Check if other items have the same rank and tie break if necessary.
+        for rank in ranks[1:]:
+            if ranks[0][1] == rank[1]:
+                if func(rank[0]) < func(best_item):
+                    best_item = rank[0]
+                    best_score = rank[1]
+            else:
+                break
+        
+        return best_item, best_score

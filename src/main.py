@@ -1,5 +1,5 @@
 """
-Python implementation of Bridge Cut algorithm.
+Python implementation of the original Bridge Cut algorithm.
 
 Bridging Centrality: Graph Mining
 from Element Level to Group Level
@@ -11,7 +11,7 @@ The style guide follows the strict python PEP 8 guidelines.
 
 @author Aaron Zampaglione <azampagl@my.fit.edu>
 @course CSE 5800 Advanced Topics in CS: Learning/Mining and the Internet, Fall 2011
-@project Proj 04, Bridge Cut
+@project Proj 05, Bridge Cut Improve
 @requires Python >=2.4
 @copyright 2011 Aaron Zampaglione
 @license MIT
@@ -26,7 +26,7 @@ def main():
     """Main execution method."""
     # Determine command line arguments.
     try:
-        rawopts, _ = getopt.getopt(sys.argv[1:], "i:o:v:t:")
+        rawopts, _ = getopt.getopt(sys.argv[1:], "i:o:v:t:d:")
     except getopt.GetoptError:
         usage()
         sys.exit(2)
@@ -48,18 +48,18 @@ def main():
         usage()
         sys.exit(2)
     
-    # Some people like spaces, other like tabs, some like \r\n, other like \n... etc.
-    #  I personally think Dr. Chan can't make up his mind!
-    #  and I'm also to lazy to use REGEX for this.
-    items = [line.replace('\t', ' ').replace('\n', '').replace('\r', '').split(' ') for line in open(opts['i'], 'r')]
-    while len(items[-1]) < 2:
-        items.pop()
+    # Check if depth was provided.
+    if not 'd' in opts:
+        opts['d'] = 1
+    
+    # Read in our data
+    items = [line[:-1].split('\t') for line in open(opts['i'], 'r')]
     
     # Make a graph.
     graph = Graph.factory(items)
     
     # Execution of the specific version.
-    results, clusters = BridgeCut.factory(opts['v'], graph).execute(float(opts['t']))
+    results, clusters = BridgeCut.factory(opts['v'], graph).execute(float(opts['t']), int(opts['d']))
     
     # Performance measurements.
     davies_bouldin = BridgeCut.davies_bouldin(graph, clusters)
@@ -95,8 +95,11 @@ def usage():
           "-v: the bridge cut version (" + ", ".join(BridgeCut.VERSIONS) + ").\n" + 
           "-t: the density threshold.\n" + 
           "\n" + 
+          "The following arguments are optional:\n" + 
+          "-d: the depth of the bridging coefficient file (default 1).\n" +
+          "\n" + 
           "Example Usage:\n" + 
-          "python main.py -i \"../data/toy/toy-bowtie.txt\" -o \"../results/toy/toy-bowtie.txt\" -d 0 -v \"edge-c\" -t .5" +
+          "python main.py -i \"../data/etc/big-bowtie.txt\" -o \"../results/etc/big-bowtie.txt\" -v \"edge-c\" -t .5 -d 2" +
           "\n")
 
 """Main execution."""

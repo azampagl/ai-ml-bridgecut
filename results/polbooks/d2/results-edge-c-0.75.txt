@@ -1,0 +1,381 @@
+Top Items Removed:
+
+	#	-	Item	-	Rank	-	Nodes Removed	-	Clustering Coefficient
+
+	1.	Shrub <-> The Official Handbook Vast Right Wing Conspiracy	-	114140	-	0	-	0.493875997581
+	2.	Meant To Be <-> Plan of Attack	-	109436	-	0	-	0.496778491912
+	3.	Allies <-> Worse Than Watergate	-	105716	-	0	-	0.500663495797
+	4.	The Sorrows of Empire <-> Why America Slept	-	100224	-	0	-	0.501607155312
+	5.	Persecution <-> Why America Slept	-	92796	-	0	-	0.502550814827
+	6.	Persecution <-> The Faith of George W Bush	-	98440	-	0	-	0.504448916725
+	7.	Dangerous Dimplomacy <-> Losing Bin Laden	-	87552	-	0	-	0.504844241256
+	8.	Losing Bin Laden <-> The Price of Loyalty	-	95200	-	0	-	0.506740757438
+	9.	The Man Who Warned America <-> Why America Slept	-	90048	-	0	-	0.50677786319
+	10.	Losing Bin Laden <-> Spin Sisters	-	92232	-	0	-	0.515031831444
+	11.	The Bushes <-> The Faith of George W Bush	-	84822	-	0	-	0.521785078197
+	12.	Dangerous Dimplomacy <-> Why America Slept	-	82604	-	0	-	0.522194747647
+	13.	Bushwhacked <-> Why America Slept	-	84448	-	0	-	0.522339047791
+	14.	The Faith of George W Bush <-> Why America Slept	-	85272	-	0	-	0.529150014602
+	15.	Hillary's Scheme <-> Surprise, Security, the American Experience	-	82908	-	0	-	0.532959538411
+	16.	The Faith of George W Bush <-> The Perfect Wife	-	75060	-	0	-	0.53438810984
+	17.	The Perfect Wife <-> The Price of Loyalty	-	73884	-	0	-	0.535725291177
+	18.	The Perfect Wife <-> Worse Than Watergate	-	74498	-	0	-	0.537357944238
+	19.	Against All Enemies <-> The Perfect Wife	-	80770	-	0	-	0.540771673366
+	20.	A National Party No More <-> Surprise, Security, the American Experience	-	71796	-	0	-	0.543628816224
+	21.	A National Party No More <-> Things Worth Fighting For	-	78336	-	0	-	0.546656899252
+	22.	Dangerous Dimplomacy <-> The Great Unraveling	-	65648	-	0	-	0.547240243701
+	23.	Dangerous Dimplomacy <-> The Faith of George W Bush	-	62656	-	0	-	0.547541030682
+	24.	Plan of Attack <-> The Faith of George W Bush	-	65205	-	0	-	0.551327878755
+	25.	Rogue Nation <-> The Sorrows of Empire	-	66912	-	0	-	0.55656074113
+	26.	Colossus <-> The Culture of Fear	-	60426	-	0	-	0.558155601297
+	27.	The Choice <-> The Great Unraveling	-	56887	-	0	-	0.558340587572
+	28.	The Choice <-> The Culture of Fear	-	65238	-	0	-	0.559882935505
+	29.	America Unbound <-> Bushwhacked	-	57252	-	0	-	0.560608559088
+	30.	Bushwhacked <-> The Faith of George W Bush	-	63600	-	0	-	0.568771824394
+	31.	Bush Country <-> The Man Who Warned America	-	49818	-	0	-	0.569293598916
+	32.	All the Shah's Men <-> Dereliction of Duty	-	48708	-	0	-	0.569451610839
+	33.	All the Shah's Men <-> Off with Their Heads	-	53865	-	0	-	0.576355817743
+	34.	Hillary's Scheme <-> The Man Who Warned America	-	49780	-	0	-	0.576937828325
+	35.	Hating America <-> The Man Who Warned America	-	48037	-	0	-	0.579636241023
+	36.	Legacy <-> The Man Who Warned America	-	46599	-	0	-	0.577252528118
+	37.	Shut Up and Sing <-> The Man Who Warned America	-	52796	-	0	-	0.585506496372
+	38.	1000 Years for Revenge <-> Charlie Wilson's War	-	37639	-	0	-	0.586112915487
+	39.	Charlie Wilson's War <-> Empire	-	45640	-	0	-	0.587411616786
+	40.	Charlie Wilson's War <-> Sleeping With the Devil	-	52542	-	0	-	0.58910155592
+	41.	The Enemy Within <-> The O'Reilly Factor	-	35156	-	0	-	0.590604201422
+	42.	Off with Their Heads <-> We Will Prevail	-	34920	-	0	-	0.593230464049
+	43.	Dereliction of Duty <-> Fighting Back	-	44892	-	0	-	0.593641295048
+	44.	Charlie Wilson's War <-> Meant To Be	-	41987	-	0	-	0.59375941697
+	45.	Bush Country <-> Meant To Be	-	41418	-	0	-	0.589398698324
+	46.	Fighting Back <-> The Enemy Within	-	39678	-	0	-	0.594160603086
+	47.	Hollywood Interrupted <-> Meant To Be	-	45784	-	0	-	0.598922507848
+	48.	Fighting Back <-> We Will Prevail	-	48384	-	2	-	0.615406440039
+	49.	Dude, Where's My Country? <-> Rush Limbaugh Is a Big Fat Idiot	-	29103	-	0	-	0.616809666052
+	50.	Disarming Iraq <-> Downsize This!	-	30240	-	0	-	0.619157578446
+	51.	Slander <-> The Savage Nation	-	26159	-	0	-	0.618440025349
+	52.	The O'Reilly Factor <-> The Savage Nation	-	33488	-	0	-	0.618031460629
+	53.	American Dynasty <-> It's Still the Economy, Stupid!	-	26320	-	0	-	0.617839232485
+	54.	Disarming Iraq <-> Stupid White Men	-	38772	-	0	-	0.615804697441
+	55.	Dude, Where's My Country? <-> Thieves in High Places	-	34643	-	0	-	0.615325016717
+	56.	Disarming Iraq <-> Thieves in High Places	-	34272	-	0	-	0.615963311867
+	57.	Fanatics and Fools <-> Thieves in High Places	-	37406	-	0	-	0.612485855034
+	58.	Had Enough? <-> It's Still the Economy, Stupid!	-	37800	-	0	-	0.606475683975
+	59.	Freethinkers <-> Shrub	-	42959	-	0	-	0.603979151382
+	60.	Had Enough? <-> Shrub	-	42572	-	0	-	0.605273649764
+	61.	Rise of the Vulcans <-> Stupid White Men	-	41975	-	0	-	0.609157144909
+	62.	Had Enough? <-> Thieves in High Places	-	41724	-	0	-	0.611746141673
+	63.	A National Party No More <-> Arrogance	-	22400	-	0	-	0.611903804938
+	64.	A National Party No More <-> The Perfect Wife	-	29216	-	0	-	0.615524025063
+	65.	The Right Man <-> The Savage Nation	-	21526	-	0	-	0.613808044172
+	66.	Allies <-> The Right Man	-	26988	-	0	-	0.617429557502
+	67.	Tales from the Left Coast <-> The Right Man	-	23220	-	0	-	0.617694164297
+	68.	A National Party No More <-> The Right Man	-	24543	-	0	-	0.617629192365
+	69.	Dereliction of Duty <-> The Right Man	-	26730	-	0	-	0.617852120234
+	70.	Charlie Wilson's War <-> The Right Man	-	31209	-	0	-	0.619034435436
+	71.	Ghost Wars <-> The Right Man	-	35568	-	4	-	0.608894412625
+	72.	The Culture of Fear <-> The Great Unraveling	-	19241	-	0	-	0.609664013395
+	73.	America Unbound <-> The Great Unraveling	-	27459	-	0	-	0.619091622823
+	74.	Soft Power <-> The Future of Freedom	-	32448	-	10	-	0.600262966211
+	75.	Legacy <-> Let Freedom Ring	-	17550	-	0	-	0.599198319837
+	76.	Let Freedom Ring <-> Power Plays	-	21216	-	0	-	0.599090786187
+	77.	Deliver Us from Evil <-> Let Freedom Ring	-	17490	-	0	-	0.608721604807
+	78.	Power Plays <-> Those Who Trespass	-	16524	-	0	-	0.610361624111
+	79.	Give Me a Break <-> Slander	-	17658	-	0	-	0.615123528872
+	80.	Downsize This! <-> Fanatics and Fools	-	13860	-	0	-	0.616315221075
+	81.	Fanatics and Fools <-> Rush Limbaugh Is a Big Fat Idiot	-	19789	-	0	-	0.619845241223
+	82.	Dude, Where's My Country? <-> Weapons of Mass Deception	-	14455	-	0	-	0.620018768333
+	83.	It's Still the Economy, Stupid! <-> Stupid White Men	-	11520	-	4	-	0.649196122137
+	84.	The O'Reilly Factor <-> The Real America	-	11268	-	0	-	0.653803356335
+	85.	Ghost Wars <-> The O'Reilly Factor	-	13838	-	0	-	0.653935074574
+	86.	Those Who Trespass <-> Useful Idiots	-	17262	-	0	-	0.654551321073
+	87.	Bias <-> Useful Idiots	-	15314	-	0	-	0.654327231437
+	88.	Slander <-> Useful Idiots	-	19278	-	0	-	0.659817427515
+	89.	Bias <-> The O'Reilly Factor	-	12033	-	0	-	0.656921499913
+	90.	Bush Country <-> The O'Reilly Factor	-	15768	-	0	-	0.653383861082
+	91.	The O'Reilly Factor <-> Those Who Trespass	-	23088	-	0	-	0.659266214023
+	92.	Slander <-> The O'Reilly Factor	-	22010	-	3	-	0.659808473885
+	93.	Big Lies <-> Weapons of Mass Deception	-	9425	-	0	-	0.659684457266
+	94.	Perfectly Legal <-> Weapons of Mass Deception	-	16500	-	0	-	0.662390918541
+	95.	Dangerous Dimplomacy <-> Weapons of Mass Deception	-	9920	-	0	-	0.66129111619
+	96.	Fanatics and Fools <-> Weapons of Mass Deception	-	12540	-	0	-	0.661912079166
+	97.	The Choice <-> Weapons of Mass Deception	-	13987	-	0	-	0.661742777385
+	98.	American Dynasty <-> Weapons of Mass Deception	-	18104	-	0	-	0.662912368028
+	99.	Freethinkers <-> Weapons of Mass Deception	-	20769	-	5	-	0.649248668982
+	100.	Against All Enemies <-> Lies and the Lying Liars Who Tell Them	-	8502	-	0	-	0.649289897595
+	101.	Charlie Wilson's War <-> Tales from the Left Coast	-	7830	-	0	-	0.648840455631
+	102.	Charlie Wilson's War <-> The Third Terrorist	-	10561	-	0	-	0.648708182096
+	103.	Dereliction of Duty <-> The Third Terrorist	-	6660	-	0	-	0.647100073472
+	104.	A National Party No More <-> Tales from the Left Coast	-	10120	-	0	-	0.648058577607
+	105.	Charlie Wilson's War <-> Off with Their Heads	-	6600	-	0	-	0.646764680463
+	106.	Bush Country <-> Dereliction of Duty	-	6254	-	0	-	0.645445483944
+	107.	Dude, Where's My Country? <-> The Choice	-	5863	-	0	-	0.643988549133
+	108.	The Choice <-> We're Right They're Wrong	-	6930	-	0	-	0.643613837845
+	109.	The Choice <-> What Liberal Media?	-	8568	-	0	-	0.643890626826
+	110.	The Bubble of American Supremacy <-> The Sorrows of Empire	-	10982	-	0	-	0.651201497773
+	111.	Freethinkers <-> The Choice	-	6588	-	0	-	0.650589722521
+	112.	Colossus <-> Dangerous Dimplomacy	-	6832	-	0	-	0.651699327202
+	113.	The Politics of Truth <-> The Sorrows of Empire	-	8362	-	0	-	0.652097040296
+	114.	Endgame <-> The Savage Nation	-	5320	-	0	-	0.650838582022
+	115.	Charlie Wilson's War <-> Rumsfeld's War	-	5066	-	0	-	0.645989017883
+	116.	Breakdown <-> Charlie Wilson's War	-	8745	-	0	-	0.650628966679
+	117.	Bush Country <-> Charlie Wilson's War	-	8704	-	0	-	0.649646374392
+	118.	Bush Country <-> Ten Minutes from Normal	-	7598	-	0	-	0.653418996149
+	119.	Bush Country <-> Ghost Wars	-	5544	-	0	-	0.651107016141
+	120.	Legacy <-> Rumsfeld's War	-	4836	-	0	-	0.64648529681
+	121.	Hollywood Interrupted <-> Legacy	-	12470	-	0	-	0.650603473006
+	122.	Against All Enemies <-> Hegemony or Survival	-	4465	-	0	-	0.647246324724
+	123.	Disarming Iraq <-> Dude, Where's My Country?	-	7316	-	0	-	0.648292870644
+	124.	American Dynasty <-> The Clinton Wars	-	5174	-	0	-	0.647854545394
+	125.	American Dynasty <-> Dude, Where's My Country?	-	7426	-	0	-	0.645497685585
+	126.	Dude, Where's My Country? <-> We're Right They're Wrong	-	6072	-	0	-	0.649317842036
+	127.	Dude, Where's My Country? <-> Fanatics and Fools	-	7876	-	0	-	0.647700384846
+	128.	American Dynasty <-> The Politics of Truth	-	9075	-	0	-	0.647527355261
+	129.	Dangerous Dimplomacy <-> The Politics of Truth	-	9900	-	0	-	0.646636676888
+	130.	Dangerous Dimplomacy <-> The New Pearl Harbor	-	9016	-	0	-	0.647252933138
+	131.	Big Lies <-> The Clinton Wars	-	8955	-	0	-	0.642838300152
+	132.	Big Lies <-> Lies and the Lying Liars Who Tell Them	-	13750	-	0	-	0.643562132809
+	133.	Fanatics and Fools <-> Lies and the Lying Liars Who Tell Them	-	15750	-	0	-	0.638369449675
+	134.	Dude, Where's My Country? <-> The New Pearl Harbor	-	14535	-	0	-	0.63985367973
+	135.	Fanatics and Fools <-> The Politics of Truth	-	13065	-	0	-	0.638185161083
+	136.	The Politics of Truth <-> Worse Than Watergate	-	16128	-	0	-	0.637040598575
+	137.	The Lies of George W. Bush <-> The Politics of Truth	-	17018	-	0	-	0.637767252873
+	138.	Hegemony or Survival <-> The Clinton Wars	-	16192	-	0	-	0.629727673405
+	139.	Dude, Where's My Country? <-> Hegemony or Survival	-	17272	-	0	-	0.63189217557
+	140.	Legacy <-> Persecution	-	3880	-	0	-	0.630773965155
+	141.	Bush Country <-> Legacy	-	3864	-	0	-	0.62680028637
+	142.	Power Plays <-> The Death of Right and Wrong	-	10887	-	0	-	0.627394303881
+	143.	The Death of Right and Wrong <-> The French Betrayal of America	-	9460	-	0	-	0.626633399258
+	144.	House of Bush, House of Saud <-> The Death of Right and Wrong	-	10074	-	0	-	0.629222319414
+	145.	Ghost Wars <-> The Death of Right and Wrong	-	8723	-	0	-	0.628443611526
+	146.	Ghost Wars <-> Those Who Trespass	-	14880	-	0	-	0.635256097286
+	147.	Bias <-> Legacy	-	7965	-	0	-	0.633747870391
+	148.	Legacy <-> The Death of Right and Wrong	-	11741	-	0	-	0.634963811313
+	149.	Legacy <-> Slander	-	14042	-	0	-	0.641979344799
+	150.	A National Party No More <-> Deliver Us from Evil	-	3456	-	0	-	0.641679081153
+	151.	A National Party No More <-> Power Plays	-	3105	-	0	-	0.640234890423
+	152.	A National Party No More <-> Legacy	-	3304	-	0	-	0.640498997471
+	153.	A National Party No More <-> Endgame	-	3026	-	0	-	0.640902251087
+	154.	A National Party No More <-> Charlie Wilson's War	-	3976	-	0	-	0.639998370279
+	155.	A National Party No More <-> Persecution	-	4557	-	0	-	0.641062218711
+	156.	A National Party No More <-> Ghost Wars	-	5934	-	0	-	0.640212191545
+	157.	The Savage Nation <-> Who's Looking Out for You?	-	5624	-	0	-	0.639156271692
+	158.	The Third Terrorist <-> Who's Looking Out for You?	-	6996	-	0	-	0.639679724847
+	159.	Dereliction of Duty <-> Persecution	-	4092	-	0	-	0.639700650227
+	160.	Dereliction of Duty <-> Endgame	-	3335	-	0	-	0.639774336698
+	161.	Dereliction of Duty <-> Power Plays	-	3552	-	0	-	0.635693857293
+	162.	Power Plays <-> Who's Looking Out for You?	-	8100	-	0	-	0.640688862288
+	163.	Betrayal <-> Dereliction of Duty	-	5088	-	0	-	0.63960754822
+	164.	Dereliction of Duty <-> Off with Their Heads	-	6156	-	0	-	0.640366480182
+	165.	Dereliction of Duty <-> Legacy	-	5418	-	0	-	0.640706134452
+	166.	Charlie Wilson's War <-> Dereliction of Duty	-	5612	-	0	-	0.636522317965
+	167.	Dereliction of Duty <-> Hillary's Scheme	-	7844	-	0	-	0.63947667355
+	168.	Dereliction of Duty <-> Ghost Wars	-	5334	-	0	-	0.632251391093
+	169.	Ghost Wars <-> Who's Looking Out for You?	-	10633	-	0	-	0.641248929502
+	170.	Dereliction of Duty <-> Ten Minutes from Normal	-	8815	-	4	-	0.642139281804
+	171.	Give Me a Break <-> The Savage Nation	-	1800	-	0	-	0.641233349613
+	172.	Off with Their Heads <-> The Savage Nation	-	2190	-	0	-	0.638273991395
+	173.	Power Plays <-> The Savage Nation	-	2130	-	0	-	0.633640268953
+	174.	Power Plays <-> Tales from the Left Coast	-	5643	-	0	-	0.634167747563
+	175.	Power Plays <-> The Third Terrorist	-	7245	-	0	-	0.6378968191
+	176.	The Savage Nation <-> Why Courage Matters	-	4239	-	0	-	0.639040044216
+	177.	Deliver Us from Evil <-> The Savage Nation	-	4611	-	0	-	0.640593524758
+	178.	Charlie Wilson's War <-> Endgame	-	3588	-	0	-	0.641601736262
+	179.	Betrayal <-> Charlie Wilson's War	-	3298	-	0	-	0.646724087275
+	180.	Charlie Wilson's War <-> The French Betrayal of America	-	3248	-	0	-	0.64174353868
+	181.	Charlie Wilson's War <-> Legacy	-	4026	-	0	-	0.628195073984
+	182.	Deliver Us from Evil <-> Ghost Wars	-	3537	-	0	-	0.628596941791
+	183.	Endgame <-> Ghost Wars	-	5248	-	0	-	0.63140189939
+	184.	Deliver Us from Evil <-> Legacy	-	4384	-	0	-	0.632190076206
+	185.	Endgame <-> The French Betrayal of America	-	5338	-	0	-	0.633244653288
+	186.	Give Me a Break <-> Power Plays	-	6264	-	0	-	0.638028301907
+	187.	Power Plays <-> The French Betrayal of America	-	4200	-	0	-	0.637233662756
+	188.	The French Betrayal of America <-> Why Courage Matters	-	5611	-	0	-	0.6415923178
+	189.	Legacy <-> Why Courage Matters	-	4000	-	0	-	0.645962833129
+	190.	Off with Their Heads <-> Power Plays	-	3597	-	0	-	0.641636793872
+	191.	Betrayal <-> Power Plays	-	5472	-	0	-	0.646867179924
+	192.	Legacy <-> Power Plays	-	5700	-	0	-	0.644141290897
+	193.	Power Plays <-> The Official Handbook Vast Right Wing Conspiracy	-	6916	-	4	-	0.640420013074
+	194.	Legacy <-> The Savage Nation	-	2944	-	0	-	0.636083689173
+	195.	Legacy <-> Tales from the Left Coast	-	4347	-	0	-	0.639959925658
+	196.	The Real America <-> The Savage Nation	-	3864	-	0	-	0.645895053332
+	197.	Charlie Wilson's War <-> Ghost Wars	-	1988	-	0	-	0.634247763424
+	198.	Legacy <-> Shut Up and Sing	-	5046	-	0	-	0.635800558455
+	199.	Charlie Wilson's War <-> Persecution	-	5412	-	0	-	0.63290200773
+	200.	Charlie Wilson's War <-> Ten Minutes from Normal	-	6384	-	0	-	0.644979302416
+	201.	Charlie Wilson's War <-> Hillary's Scheme	-	5670	-	0	-	0.640148384542
+	202.	Hating America <-> Persecution	-	5610	-	0	-	0.652225679228
+	203.	Hating America <-> Hillary's Scheme	-	5478	-	0	-	0.651259495653
+	204.	Hating America <-> The Savage Nation	-	5115	-	0	-	0.654158046378
+	205.	Against All Enemies <-> Perfectly Legal	-	1188	-	0	-	0.650463091895
+	206.	Perfectly Legal <-> The Choice	-	1661	-	0	-	0.644819942774
+	207.	Hegemony or Survival <-> The Price of Loyalty	-	3575	-	0	-	0.645761352411
+	208.	Big Lies <-> Hegemony or Survival	-	3328	-	0	-	0.643120032378
+	209.	Hegemony or Survival <-> The Lies of George W. Bush	-	3036	-	0	-	0.638119236073
+	210.	Colossus <-> The Choice	-	3108	-	0	-	0.640267679654
+	211.	Against All Enemies <-> Colossus	-	3248	-	0	-	0.637796510111
+	212.	Colossus <-> The Sorrows of Empire	-	5032	-	0	-	0.633831071363
+	213.	Colossus <-> The Lies of George W. Bush	-	4768	-	0	-	0.634945898565
+	214.	Hegemony or Survival <-> The New Pearl Harbor	-	4256	-	0	-	0.639293724652
+	215.	Dangerous Dimplomacy <-> Disarming Iraq	-	936	-	0	-	0.636021875728
+	216.	Disarming Iraq <-> Worse Than Watergate	-	1710	-	0	-	0.636897702563
+	217.	Against All Enemies <-> Disarming Iraq	-	954	-	0	-	0.635468356121
+	218.	Disarming Iraq <-> The Choice	-	1881	-	0	-	0.634749992359
+	219.	Dangerous Dimplomacy <-> The Choice	-	1206	-	0	-	0.631178040961
+	220.	The Choice <-> Worse Than Watergate	-	1652	-	0	-	0.6329608797
+	221.	Dangerous Dimplomacy <-> Freethinkers	-	1242	-	0	-	0.636624325755
+	222.	American Dynasty <-> The Choice	-	901	-	0	-	0.635104991627
+	223.	American Dynasty <-> The Sorrows of Empire	-	990	-	0	-	0.634464689899
+	224.	American Dynasty <-> Dangerous Dimplomacy	-	912	-	0	-	0.632766187114
+	225.	American Dynasty <-> The Price of Loyalty	-	1134	-	0	-	0.633074252639
+	226.	Dangerous Dimplomacy <-> Fanatics and Fools	-	1060	-	0	-	0.631869459043
+	227.	American Dynasty <-> Big Lies	-	1071	-	0	-	0.631329700895
+	228.	American Dynasty <-> Living History	-	1386	-	0	-	0.632182752835
+	229.	Fanatics and Fools <-> Worse Than Watergate	-	1003	-	0	-	0.632616739138
+	230.	Fanatics and Fools <-> Living History	-	930	-	0	-	0.633493278058
+	231.	Fanatics and Fools <-> The New Pearl Harbor	-	770	-	0	-	0.634625841148
+	232.	American Dynasty <-> The Buying of the President 2004	-	656	-	0	-	0.633963419833
+	233.	Disarming Iraq <-> The Buying of the President 2004	-	992	-	0	-	0.640024025894
+	234.	Against All Enemies <-> American Dynasty	-	756	-	0	-	0.63500050674
+	235.	American Dynasty <-> The Lies of George W. Bush	-	1020	-	0	-	0.63110947024
+	236.	Fanatics and Fools <-> Had Enough?	-	1104	-	0	-	0.62835521966
+	237.	Fanatics and Fools <-> We're Right They're Wrong	-	1455	-	0	-	0.626625709234
+	238.	American Dynasty <-> Fanatics and Fools	-	1827	-	0	-	0.624210250297
+	239.	American Dynasty <-> The Exception to the Rulers	-	2832	-	0	-	0.636287544983
+	240.	Disarming Iraq <-> Fanatics and Fools	-	1995	-	0	-	0.630582461017
+	241.	Fanatics and Fools <-> What Liberal Media?	-	2310	-	0	-	0.628581080755
+	242.	Fanatics and Fools <-> The Bubble of American Supremacy	-	2552	-	0	-	0.641279493453
+	243.	Bush vs. the Beltway <-> Losing Bin Laden	-	385	-	0	-	0.639830218091
+	244.	Losing Bin Laden <-> Sleeping With the Devil	-	390	-	0	-	0.637414759154
+	245.	Bush vs. the Beltway <-> Empire	-	480	-	0	-	0.643211860603
+	246.	Empire <-> Sleeping With the Devil	-	520	-	0	-	0.635965483792
+	247.	1000 Years for Revenge <-> Sleeping With the Devil	-	980	-	0	-	0.639347126304
+	248.	Sleeping With the Devil <-> The Man Who Warned America	-	1326	-	3	-	0.636085126994
+	249.	Legacy <-> The French Betrayal of America	-	330	-	0	-	0.63397057488
+	250.	House of Bush, House of Saud <-> Legacy	-	420	-	0	-	0.633587624497
+	251.	House of Bush, House of Saud <-> Off with Their Heads	-	440	-	0	-	0.639770330679
+	252.	Fanatics and Fools <-> The Lies of George W. Bush	-	329	-	0	-	0.642702247248
+	253.	Big Lies <-> Dangerous Dimplomacy	-	464	-	0	-	0.641875800967
+	254.	Bushwomen <-> The Choice	-	623	-	0	-	0.643174502265
+	255.	Against All Enemies <-> Bushwomen	-	600	-	0	-	0.638158222249
+	256.	Big Lies <-> The Price of Loyalty	-	306	-	0	-	0.636872639145
+	257.	Big Lies <-> The Sorrows of Empire	-	160	-	0	-	0.630466250921
+	258.	Against All Enemies <-> The Sorrows of Empire	-	170	-	0	-	0.623014611651
+	259.	Bush at War <-> The Sorrows of Empire	-	765	-	0	-	0.626274483093
+	260.	Living History <-> The Sorrows of Empire	-	490	-	0	-	0.626720501721
+	261.	The Lies of George W. Bush <-> The Sorrows of Empire	-	351	-	0	-	0.61875994376
+	262.	The New Pearl Harbor <-> The Sorrows of Empire	-	765	-	0	-	0.628860953861
+	263.	The Sorrows of Empire <-> Worse Than Watergate	-	553	-	0	-	0.624748399748
+	264.	Plan of Attack <-> The Lies of George W. Bush	-	288	-	0	-	0.62053964554
+	265.	Plan of Attack <-> Worse Than Watergate	-	603	-	0	-	0.618014393014
+	266.	Bushwomen <-> Dangerous Dimplomacy	-	640	-	0	-	0.62154974655
+	267.	Dangerous Dimplomacy <-> Plan of Attack	-	936	-	0	-	0.620034595035
+	268.	Plan of Attack <-> The Price of Loyalty	-	1014	-	0	-	0.62356994857
+	269.	Against All Enemies <-> Bush at War	-	117	-	0	-	0.622890493345
+	270.	Big Lies <-> Bush at War	-	292	-	0	-	0.628963124418
+	271.	Big Lies <-> The Lies of George W. Bush	-	100	-	0	-	0.62287737515
+	272.	Big Lies <-> Living History	-	204	-	0	-	0.628203362294
+	273.	Against All Enemies <-> Worse Than Watergate	-	75	-	0	-	0.62940695668
+	274.	Against All Enemies <-> Living History	-	123	-	0	-	0.633992858993
+	275.	Dude, Where's My Country? <-> The Politics of Truth	-	66	-	0	-	0.633992858993
+	276.	Lies and the Lying Liars Who Tell Them <-> The Clinton Wars	-	198	-	4	-	0.674895624089
+	277.	Plan of Attack <-> The Sorrows of Empire	-	65	-	3	-	0.709212350738
+	278.	Colossus <-> Perfectly Legal	-	65	-	3	-	0.747205869527
+	279.	Charlie Wilson's War <-> Hating America	-	65	-	3	-	0.789500541387
+	280.	Big Lies <-> The New Pearl Harbor	-	64	-	0	-	0.80103093971
+	281.	Freethinkers <-> Had Enough?	-	58	-	0	-	0.81172276361
+	282.	Had Enough? <-> We're Right They're Wrong	-	63	-	0	-	0.797257354805
+	283.	American Dynasty <-> Had Enough?	-	58	-	1	-	0.816435380858
+	284.	Ten Minutes from Normal <-> The French Betrayal of America	-	54	-	0	-	0.803403540904
+	285.	House of Bush, House of Saud <-> The French Betrayal of America	-	54	-	0	-	0.764730675308
+	286.	Legacy <-> The Official Handbook Vast Right Wing Conspiracy	-	52	-	0	-	0.748493707148
+	287.	Ghost Wars <-> Legacy	-	54	-	0	-	0.740695735888
+	288.	Ghost Wars <-> The Real America	-	70	-	0	-	0.745936008436
+	289.	Breakdown <-> Rumsfeld's War	-	47	-	0	-	0.7321997447
+	290.	Hollywood Interrupted <-> Rumsfeld's War	-	47	-	0	-	0.692822455322
+	291.	1000 Years for Revenge <-> Empire	-	45	-	0	-	0.676796814297
+	292.	1000 Years for Revenge <-> The Man Who Warned America	-	45	-	5	-	0.684966688158
+	293.	Legacy <-> The Real America	-	41	-	0	-	0.669363851279
+	294.	Off with Their Heads <-> The Real America	-	41	-	1	-	0.686813790075
+	295.	Persecution <-> The Third Terrorist	-	40	-	0	-	0.669817742644
+	296.	Betrayal <-> Legacy	-	40	-	0	-	0.624165568731
+	297.	Legacy <-> Off with Their Heads	-	39	-	1	-	0.642480359147
+	298.	Betrayal <-> Off with Their Heads	-	39	-	1	-	0.668445821855
+	299.	Hillary's Scheme <-> The Savage Nation	-	36	-	0	-	0.650677226814
+	300.	American Dynasty <-> We're Right They're Wrong	-	31	-	0	-	0.627949954086
+	301.	American Dynasty <-> What Liberal Media?	-	62	-	0	-	0.631737832874
+	302.	Disarming Iraq <-> What Liberal Media?	-	38	-	0	-	0.601434802571
+	303.	Disarming Iraq <-> The Bubble of American Supremacy	-	93	-	3	-	0.588531658044
+	304.	We're Right They're Wrong <-> What Liberal Media?	-	30	-	3	-	0.634994683679
+	305.	Ghost Wars <-> House of Bush, House of Saud	-	29	-	1	-	0.652648102648
+	306.	Ghost Wars <-> The French Betrayal of America	-	29	-	1	-	0.671450617284
+	307.	Ghost Wars <-> Persecution	-	29	-	1	-	0.691587301587
+	308.	Ghost Wars <-> The Official Handbook Vast Right Wing Conspiracy	-	28	-	1	-	0.713328664799
+	309.	Ghost Wars <-> The Savage Nation	-	30	-	0	-	0.707726423903
+	310.	Ghost Wars <-> Tales from the Left Coast	-	63	-	0	-	0.712908496732
+	311.	Ghost Wars <-> The Third Terrorist	-	56	-	4	-	0.69462962963
+	312.	Ghost Wars <-> Hillary's Scheme	-	26	-	1	-	0.725478927203
+	313.	Ghost Wars <-> Ten Minutes from Normal	-	26	-	5	-	0.730787037037
+	314.	Bush at War <-> The Price of Loyalty	-	23	-	0	-	0.700132275132
+	315.	Bush at War <-> The Lies of George W. Bush	-	20	-	1	-	0.734713595583
+	316.	The Exception to the Rulers <-> The Lies of George W. Bush	-	17	-	0	-	0.693995859213
+	317.	Against All Enemies <-> The Lies of George W. Bush	-	24	-	0	-	0.658005521049
+	318.	Against All Enemies <-> The New Pearl Harbor	-	54	-	0	-	0.661801242236
+	319.	The Lies of George W. Bush <-> The New Pearl Harbor	-	18	-	6	-	0.624789915966
+	320.	Breakdown <-> Bush Country	-	15	-	1	-	0.669791666667
+	321.	Bush Country <-> Rumsfeld's War	-	15	-	1	-	0.725555555556
+	322.	Bush Country <-> Hollywood Interrupted	-	15	-	6	-	0.746296296296
+	323.	Against All Enemies <-> The Exception to the Rulers	-	10	-	1	-	0.855952380952
+	324.	Bushwhacked <-> The Choice	-	6	-	0	-	0.742857142857
+	325.	Against All Enemies <-> Bushwhacked	-	10	-	8	-	0.0
+
+Clusters:
+
+	Fighting Back, Meant To Be
+	Arrogance, The Perfect Wife, The Right Man, We Will Prevail
+	Buck Up Suck Up, The Future of Freedom, The Great Unraveling
+	America Unbound, Rogue Nation, Soft Power, Surprise, Security, the American Experience, The Culture of Fear, The Faith of George W Bush, Things Worth Fighting For
+	Stupid White Men, Thieves in High Places
+	It's Still the Economy, Stupid!, Shrub
+	Let Freedom Ring, The O'Reilly Factor, Useful Idiots
+	Downsize This!, Rise of the Vulcans, Rush Limbaugh Is a Big Fat Idiot, The Best Democracy Money Can Buy, Weapons of Mass Deception
+	A National Party No More, Dereliction of Duty, The Bushes, Who's Looking Out for You?
+	Deliver Us from Evil, Endgame, Power Plays, Why Courage Matters
+	Bush vs. the Beltway, Sleeping With the Devil, Why America Slept
+	Dude, Where's My Country?, The Clinton Wars
+	Lies and the Lying Liars Who Tell Them, The Politics of Truth
+	Bushwomen, The Sorrows of Empire
+	Plan of Attack
+	Hegemony or Survival, Perfectly Legal
+	Colossus
+	Hating America
+	Charlie Wilson's War, Shut Up and Sing
+	Had Enough?
+	All the Shah's Men, Empire, Losing Bin Laden, The Man Who Warned America
+	1000 Years for Revenge
+	The Real America
+	Legacy
+	Betrayal
+	American Dynasty, Disarming Iraq, Freethinkers
+	The Bubble of American Supremacy, What Liberal Media?
+	We're Right They're Wrong
+	House of Bush, House of Saud
+	The French Betrayal of America
+	Persecution
+	The Official Handbook Vast Right Wing Conspiracy
+	Allies, Tales from the Left Coast, The Savage Nation, The Third Terrorist
+	Hillary's Scheme
+	Ten Minutes from Normal
+	Ghost Wars, Give Me a Break, Off with Their Heads, The Enemy Within
+	Bush at War
+	The New Pearl Harbor
+	Dangerous Dimplomacy, Living History, The Lies of George W. Bush, The Price of Loyalty, Worse Than Watergate
+	Breakdown
+	Rumsfeld's War
+	Hollywood Interrupted
+	Bias, Bush Country, Slander, The Death of Right and Wrong, Those Who Trespass
+	The Exception to the Rulers
+	Bushwhacked
+	Against All Enemies, Big Lies, Fanatics and Fools, MoveOn's 50 Ways to Love Your Country, Spin Sisters, The Buying of the President 2004, The Choice
+
+DB Index:				1.44240197648
+Average Silhouette Coefficient:	0.304230042444

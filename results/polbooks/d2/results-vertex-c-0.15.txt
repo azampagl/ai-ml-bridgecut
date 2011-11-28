@@ -1,0 +1,41 @@
+Top Items Removed:
+
+	#	-	Item	-	Rank	-	Nodes Removed	-	Clustering Coefficient
+
+	1.	Meant To Be	-	9048	-	1	-	0.495534667963
+	2.	The Official Handbook Vast Right Wing Conspiracy	-	8667	-	1	-	0.500912772114
+	3.	Why America Slept	-	8633	-	1	-	0.509930038538
+	4.	Allies	-	8064	-	1	-	0.51278198761
+	5.	All the Shah's Men	-	7062	-	1	-	0.515904502334
+	6.	We Will Prevail	-	6825	-	1	-	0.520975002722
+	7.	The Perfect Wife	-	6808	-	1	-	0.526715139909
+	8.	Spin Sisters	-	7412	-	1	-	0.530367552921
+	9.	Bushwhacked	-	7313	-	1	-	0.534543673122
+	10.	Persecution	-	6786	-	1	-	0.537364491106
+	11.	The Bushes	-	8316	-	1	-	0.541304512905
+	12.	Surprise, Security, the American Experience	-	6600	-	1	-	0.545546939961
+	13.	The Man Who Warned America	-	4980	-	1	-	0.558382625845
+	14.	Colossus	-	4941	-	1	-	0.561883488027
+	15.	Losing Bin Laden	-	4134	-	1	-	0.566505359753
+	16.	Plan of Attack	-	4697	-	1	-	0.569068610952
+	17.	Rogue Nation	-	4720	-	1	-	0.573188782594
+	18.	Freethinkers	-	4130	-	1	-	0.578676704656
+	19.	The Great Unraveling	-	3654	-	1	-	0.571931688261
+	20.	Let Freedom Ring	-	3182	-	1	-	0.579299560977
+	21.	It's Still the Economy, Stupid!	-	2970	-	1	-	0.572662149735
+	22.	Had Enough?	-	3186	-	2	-	0.586351021275
+	23.	The Politics of Truth	-	2520	-	1	-	0.590832233032
+	24.	The Future of Freedom	-	2288	-	2	-	0.610853302222
+	25.	Deliver Us from Evil	-	2193	-	1	-	0.609024289198
+	26.	Endgame	-	2610	-	1	-	0.610378509263
+	27.	A National Party No More	-	2508	-	77	-	0.0
+
+Clusters:
+
+	Shrub
+	Buck Up Suck Up
+	Against All Enemies, America Unbound, American Dynasty, Big Lies, Bush at War, Bushwomen, Dangerous Dimplomacy, Disarming Iraq, Downsize This!, Dude, Where's My Country?, Fanatics and Fools, Hegemony or Survival, Lies and the Lying Liars Who Tell Them, Living History, MoveOn's 50 Ways to Love Your Country, Perfectly Legal, Rise of the Vulcans, Rush Limbaugh Is a Big Fat Idiot, Soft Power, Stupid White Men, The Best Democracy Money Can Buy, The Bubble of American Supremacy, The Buying of the President 2004, The Choice, The Clinton Wars, The Culture of Fear, The Exception to the Rulers, The Faith of George W Bush, The Lies of George W. Bush, The New Pearl Harbor, The Price of Loyalty, The Sorrows of Empire, Thieves in High Places, Things Worth Fighting For, We're Right They're Wrong, Weapons of Mass Deception, What Liberal Media?, Worse Than Watergate
+	1000 Years for Revenge, Arrogance, Betrayal, Bias, Breakdown, Bush Country, Bush vs. the Beltway, Charlie Wilson's War, Dereliction of Duty, Empire, Fighting Back, Ghost Wars, Give Me a Break, Hating America, Hillary's Scheme, Hollywood Interrupted, House of Bush, House of Saud, Legacy, Off with Their Heads, Power Plays, Rumsfeld's War, Shut Up and Sing, Slander, Sleeping With the Devil, Tales from the Left Coast, Ten Minutes from Normal, The Death of Right and Wrong, The Enemy Within, The French Betrayal of America, The O'Reilly Factor, The Real America, The Right Man, The Savage Nation, The Third Terrorist, Those Who Trespass, Useful Idiots, Who's Looking Out for You?, Why Courage Matters
+
+DB Index:				1.76647744733
+Average Silhouette Coefficient:	0.464166668301

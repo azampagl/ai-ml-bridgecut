@@ -10,7 +10,7 @@ from bridgecut.core import BridgeCut
 
 class EdgeCBridgeCut(BridgeCut):
     
-    def split(self, graph):
+    def split(self, graph, d):
         """
         @see parent
         """
@@ -18,20 +18,28 @@ class EdgeCBridgeCut(BridgeCut):
         paths = graph.paths()
         edges = graph.edges()
         
-        btwns_ranks = self.ranks(paths, edges, lambda edge: edge.btwns(paths), lambda edge: edge.node1.deg() + edge.node2.deg())
-        bridge_ranks = self.ranks(paths, edges, lambda edge: edge.bridge_coeff(), lambda edge: edge.node1.deg() + edge.node2.deg())
+        # No edges left...
+        if not len(edges):
+            return None, None, None
+        
+        btwns_ranks = self.ranks(paths, edges, lambda edge: edge.btwns(paths))
+        bridge_ranks = self.ranks(paths, edges, lambda edge: edge.bridge_coeff())
 
-        max_score = 0.0
-        max_edge = None
+        ranks = sorted([(edge, btwns_ranks[edge] * bridge_ranks[edge]) for edge in edges], key=lambda v: v[1], reverse=True)
         
-        # Find the edge with the best score.
-        for edge in edges:
-            score = btwns_ranks[edge] * bridge_ranks[edge]
-            if score > max_score:
-                max_score = score
-                max_edge = edge
+        if d > 1:
+            # Find the top % of ranked items.
+            edges = [rank[0] for rank in ranks[:int(len(ranks) * self.__class__.TIER + 1)]]
+            # Iteratively find the ranks at each depth up to d.
+            bridge_reranks = {}
+            for edge in edges:
+                bridge_reranks[edge] = bridge_ranks[edge]      
+            for i in range(2, d + 1):
+                tmp_ranks = self.ranks(paths, edges, lambda edge: edge.bridge_coeff(i))
+                for edge in tmp_ranks:
+                    bridge_reranks[edge] += tmp_ranks[edge]
         
-        if not max_edge:
-            return None, None, graph.nodes[0]
+        # Determine the best edge.
+        best_edge, best_score = self.tiebreak(ranks, lambda edge: edge.node1.deg() + edge.node2.deg())  
         
-        return max_edge, max_score, max_edge.destroy()
+        return best_edge, best_score, best_edge.destroy()

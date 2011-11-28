@@ -1,0 +1,96 @@
+Top Items Removed:
+
+	#	-	Item	-	Rank	-	Nodes Removed	-	Clustering Coefficient
+
+	1.	The Official Handbook Vast Right Wing Conspiracy	-	8568	-	1	-	0.492776184029
+	2.	Why America Slept	-	7744	-	1	-	0.501626908175
+	3.	Meant To Be	-	7426	-	1	-	0.509930038538
+	4.	Allies	-	6804	-	1	-	0.51278198761
+	5.	Persecution	-	6205	-	1	-	0.5149709782
+	6.	All the Shah's Men	-	6256	-	1	-	0.518161998919
+	7.	The Bushes	-	6240	-	1	-	0.521285628632
+	8.	The Perfect Wife	-	5859	-	1	-	0.523728732182
+	9.	Spin Sisters	-	6745	-	1	-	0.527388082749
+	10.	Surprise, Security, the American Experience	-	5680	-	1	-	0.531269393529
+	11.	Bushwhacked	-	4928	-	1	-	0.536024450179
+	12.	Colossus	-	4736	-	1	-	0.539209614511
+	13.	Freethinkers	-	3900	-	1	-	0.543994165976
+	14.	The Man Who Warned America	-	3735	-	1	-	0.556953839904
+	15.	Plan of Attack	-	3339	-	1	-	0.559146980927
+	16.	Rogue Nation	-	3339	-	1	-	0.563109379516
+	17.	Let Freedom Ring	-	3000	-	1	-	0.570125821244
+	18.	The Great Unraveling	-	2728	-	1	-	0.563267420078
+	19.	Arrogance	-	2496	-	1	-	0.56159444988
+	20.	The Right Man	-	3038	-	1	-	0.563296696164
+	21.	Fighting Back	-	2618	-	1	-	0.573940338152
+	22.	A National Party No More	-	2277	-	1	-	0.580486347389
+	23.	Betrayal	-	2419	-	1	-	0.577170345788
+	24.	The Price of Loyalty	-	2378	-	1	-	0.583772576873
+	25.	Dangerous Dimplomacy	-	2479	-	1	-	0.599858895512
+	26.	Stupid White Men	-	2160	-	1	-	0.617463553568
+	27.	Dude, Where's My Country?	-	1692	-	1	-	0.626782347362
+	28.	Slander	-	1482	-	1	-	0.633012603219
+	29.	Lies and the Lying Liars Who Tell Them	-	1403	-	1	-	0.640530689188
+	30.	Disarming Iraq	-	1189	-	1	-	0.648394313404
+	31.	The Choice	-	1176	-	1	-	0.65907868849
+	32.	The Bubble of American Supremacy	-	1140	-	1	-	0.669682343353
+	33.	The O'Reilly Factor	-	1110	-	1	-	0.680860447769
+	34.	Those Who Trespass	-	1050	-	1	-	0.669562402573
+	35.	Bias	-	1330	-	2	-	0.684160065143
+	36.	Weapons of Mass Deception	-	858	-	1	-	0.695466047363
+	37.	Tales from the Left Coast	-	810	-	1	-	0.695705898823
+	38.	Charlie Wilson's War	-	731	-	6	-	0.676183553401
+	39.	Dereliction of Duty	-	700	-	1	-	0.686411042661
+	40.	Hillary's Scheme	-	527	-	1	-	0.670833074647
+	41.	Bush Country	-	504	-	1	-	0.661084270136
+	42.	The New Pearl Harbor	-	434	-	1	-	0.659223525013
+	43.	Off with Their Heads	-	416	-	2	-	0.674879060334
+	44.	Had Enough?	-	400	-	1	-	0.634059767393
+	45.	It's Still the Economy, Stupid!	-	506	-	2	-	0.659567355721
+	46.	Power Plays	-	320	-	1	-	0.673320579203
+	47.	Fanatics and Fools	-	240	-	6	-	0.673615766949
+	48.	Rumsfeld's War	-	176	-	2	-	0.67483162832
+	49.	Hegemony or Survival	-	200	-	1	-	0.665996437425
+	50.	The Future of Freedom	-	162	-	7	-	0.667767153481
+	51.	Deliver Us from Evil	-	112	-	1	-	0.660807656396
+	52.	Endgame	-	95	-	1	-	0.663061349425
+	53.	Big Lies	-	90	-	1	-	0.643605699856
+	54.	American Dynasty	-	72	-	4	-	0.67224025974
+	55.	Legacy	-	36	-	3	-	0.704761904762
+	56.	Why Courage Matters	-	32	-	1	-	0.749206349206
+	57.	The Savage Nation	-	30	-	2	-	0.769336219336
+	58.	Worse Than Watergate	-	15	-	1	-	0.761375661376
+	59.	Perfectly Legal	-	11	-	1	-	0.802619047619
+	60.	The Real America	-	12	-	1	-	0.847368421053
+	61.	Bushwomen	-	10	-	1	-	0.848941798942
+	62.	Against All Enemies	-	15	-	3	-	0.77873015873
+	63.	The Exception to the Rulers	-	8	-	1	-	0.848639455782
+	64.	Ten Minutes from Normal	-	6	-	1	-	0.864468864469
+	65.	Bush at War	-	4	-	5	-	0.904761904762
+	66.	Give Me a Break	-	3	-	1	-	0.752380952381
+	67.	The Enemy Within	-	4	-	1	-	0.9
+	68.	The Third Terrorist	-	3	-	1	-	0.7
+	69.	Who's Looking Out for You?	-	3	-	5	-	0.0
+
+Clusters:
+
+	Useful Idiots
+	1000 Years for Revenge, Bush vs. the Beltway, Empire, Losing Bin Laden, Sleeping With the Devil
+	We Will Prevail
+	Shrub
+	Thieves in High Places
+	Downsize This!, Rise of the Vulcans, Rush Limbaugh Is a Big Fat Idiot, The Best Democracy Money Can Buy
+	Breakdown
+	America Unbound, Soft Power, The Culture of Fear, The Faith of George W Bush, Things Worth Fighting For
+	Buck Up Suck Up
+	The Clinton Wars
+	We're Right They're Wrong, What Liberal Media?
+	Hollywood Interrupted
+	Shut Up and Sing
+	Hating America
+	MoveOn's 50 Ways to Love Your Country, The Buying of the President 2004
+	Living History, The Lies of George W. Bush, The Politics of Truth, The Sorrows of Empire
+	Ghost Wars, House of Bush, House of Saud, The Death of Right and Wrong, The French Betrayal of America
+
+DB Index:				0.989175529184
+Average Silhouette Coefficient:	0.872763347763
