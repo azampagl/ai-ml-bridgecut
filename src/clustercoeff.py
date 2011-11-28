@@ -3,18 +3,14 @@
 @copyright 2011 Aaron Zampaglione
 @license MIT
 """
-VERSIONS = {'edge-c': '../results/enron/enron2-edge-c-0.6.txt',
-           'edge-b': '../results/enron/enron2-edge-b-0.6.txt',
-           'vertex-c': '../results/enron/enron2-vertex-c-0.6.txt',
-           'vertex-b': '../results/enron/enron2-vertex-b-0.6.txt',
+VERSIONS = {'edge-c': '../results/lesmis/d2/results-edge-c-0.7.txt',
+           'vertex-c': '../results/lesmis/d2/results-vertex-c-0.7.txt',
             }
 
-NUM_NODES = 100
+NUM_NODES = 77
 
 results = {'edge-c': {},
-           'edge-b': {},
            'vertex-c': {},
-           'vertex-b': {},
            }
 
 for version, file_name in VERSIONS.iteritems():
