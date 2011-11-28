@@ -1,10 +1,10 @@
 """
 Python implementation of the original Bridge Cut algorithm.
 
-Bridging Centrality: Graph Mining
-from Element Level to Group Level
-
-@see http://dl.acm.org/citation.cfm?id=1401934
+Localized Bridging Centrality for Distributed Network Analysis
+Soumendra Nanda and David Kotz
+Department of Computer Science and Institute for Security Technology Studies
+Dartmouth College, Hanover, NH 03755
 
 The style guide follows the strict python PEP 8 guidelines.
 @see http://www.python.org/dev/peps/pep-0008/
@@ -95,11 +95,8 @@ def usage():
           "-v: the bridge cut version (" + ", ".join(BridgeCut.VERSIONS) + ").\n" + 
           "-t: the density threshold.\n" + 
           "\n" + 
-          "The following arguments are optional:\n" + 
-          "-d: the depth of the bridging coefficient file (default 1).\n" +
-          "\n" + 
           "Example Usage:\n" + 
-          "python main.py -i \"../data/etc/big-bowtie.txt\" -o \"../results/etc/big-bowtie.txt\" -v \"edge-c\" -t .5 -d 2" +
+          "python main.py -i \"../data/etc/big-bowtie.txt\" -o \"../results/etc/big-bowtie.txt\" -v \"edge-c\" -t .5" +
           "\n")
 
 """Main execution."""

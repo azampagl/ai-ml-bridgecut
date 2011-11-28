@@ -8,6 +8,8 @@ Node of a graph.
 """
 from bridgecut.lib.util import combinations
 
+from operator import mul
+
 class Node(object):
     
     def __init__(self, value):
@@ -57,23 +59,35 @@ class Node(object):
         
         return num / float(len(nbrd))
     
-    def btwns(self, paths):
+    def btwns(self):
         """
-        Find the betweenness centrality for this node.
-        
-        Key arguments:
-        paths -- a dictionary of all the shortest paths.
+        Find the egocentric betweenness centrality for this node.
         """
         ret = 0.0
         
-        for node1, node2 in combinations(paths.keys(), 2):
-            # There theoretically can be no shortests paths if we deleted
-            #  a bridge, but the density of the new clusters didn't meet the threshold.
-            if node1 != self and node2 != self and paths[node1][node2]:
-                # Look at all shortest paths from node1 to node2.
-                ret += sum([1 for path in paths[node1][node2] if self in path]) / float(len(paths[node1][node2]))
+        # Find the neighbors of this node's neighbors.
+        nbrs = {}
+        for nbr in self.nbrs():
+            nbrs[nbr] = nbr.nbrs()
+        nbrs[self] = self.nbrs()
         
-        return ret  
+        # We need the node keys sorted properly to build a contact matrix.
+        snodes = sorted(nbrs.keys())
+        
+        # Generate a contact matrix.
+        cmatrix = []
+        for node1 in snodes:
+            cmatrix.append([int(node1 != node2 and node1 in nbrs[node2]) for node2 in snodes])
+        
+        for node1, node2 in combinations(snodes, 2):
+            row = snodes.index(node1)
+            col = snodes.index(node2)
+            if not cmatrix[row][col]:
+                s = sum(map(mul, cmatrix[row][:], cmatrix[:][col]))
+                if s > 0:
+                    ret += 1 / float(s)
+        
+        return ret    
     
     def deg(self, d=1):
         """

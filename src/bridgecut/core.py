@@ -188,12 +188,11 @@ class BridgeCut(object):
         
         return results, clusters
     
-    def ranks(self, paths, items, func):
+    def ranks(self, items, func):
         """
         Ranks the scores based on a given method.
         
         Key arguments:
-        paths -- shortest paths in the graph.
         items -- the items that are to be ranked (nodes or edges).
         func  -- the scoring function.
         """

@@ -14,16 +14,14 @@ class EdgeCBridgeCut(BridgeCut):
         """
         @see parent
         """
-        # Get all the shortest paths.
-        paths = graph.paths()
         edges = graph.edges()
         
         # No edges left...
         if not len(edges):
             return None, None, None
         
-        btwns_ranks = self.ranks(paths, edges, lambda edge: edge.btwns(paths))
-        bridge_ranks = self.ranks(paths, edges, lambda edge: edge.bridge_coeff())
+        btwns_ranks = self.ranks(edges, lambda edge: edge.btwns())
+        bridge_ranks = self.ranks(edges, lambda edge: edge.bridge_coeff())
 
         ranks = sorted([(edge, btwns_ranks[edge] * bridge_ranks[edge]) for edge in edges], key=lambda v: v[1], reverse=True)
         
@@ -35,7 +33,7 @@ class EdgeCBridgeCut(BridgeCut):
             for edge in edges:
                 bridge_reranks[edge] = bridge_ranks[edge]      
             for i in range(2, d + 1):
-                tmp_ranks = self.ranks(paths, edges, lambda edge: edge.bridge_coeff(i))
+                tmp_ranks = self.ranks(edges, lambda edge: edge.bridge_coeff(i))
                 for edge in tmp_ranks:
                     bridge_reranks[edge] += tmp_ranks[edge]
         

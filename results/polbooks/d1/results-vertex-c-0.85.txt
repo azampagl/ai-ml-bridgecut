@@ -1,0 +1,94 @@
+Top Items Removed:
+
+	#	-	Item	-	Rank	-	Nodes Removed	-	Clustering Coefficient
+
+	1.	Why America Slept	-	4872	-	1	-	0.496241937331
+	2.	Hillary's Scheme	-	3780	-	1	-	0.498943435359
+	3.	Meant To Be	-	3496	-	1	-	0.507232620476
+	4.	The Perfect Wife	-	3038	-	1	-	0.508874277694
+	5.	Persecution	-	2856	-	1	-	0.508311835321
+	6.	Let Freedom Ring	-	2856	-	1	-	0.513920378089
+	7.	Stupid White Men	-	2697	-	1	-	0.527114676632
+	8.	Colossus	-	2652	-	1	-	0.529826875339
+	9.	The Man Who Warned America	-	2548	-	1	-	0.538218950623
+	10.	Losing Bin Laden	-	2552	-	1	-	0.558589067052
+	11.	The Sorrows of Empire	-	2340	-	1	-	0.57613574982
+	12.	We Will Prevail	-	2349	-	1	-	0.585670607997
+	13.	The Enemy Within	-	2262	-	1	-	0.58991740613
+	14.	Bushwhacked	-	2132	-	1	-	0.59507076534
+	15.	Dude, Where's My Country?	-	2064	-	1	-	0.603320058472
+	16.	Freethinkers	-	1947	-	1	-	0.605268823642
+	17.	The Great Unraveling	-	1900	-	1	-	0.597530918436
+	18.	Allies	-	1700	-	1	-	0.602667512572
+	19.	The Official Handbook Vast Right Wing Conspiracy	-	1760	-	1	-	0.614383510706
+	20.	Hegemony or Survival	-	1537	-	1	-	0.622673421704
+	21.	Slander	-	1428	-	1	-	0.629138351042
+	22.	The French Betrayal of America	-	1200	-	1	-	0.635096555854
+	23.	The Bushes	-	1078	-	1	-	0.640790502654
+	24.	The Right Man	-	1012	-	1	-	0.630313568271
+	25.	A National Party No More	-	1152	-	2	-	0.648881182109
+	26.	Lies and the Lying Liars Who Tell Them	-	885	-	1	-	0.658991366853
+	27.	Endgame	-	798	-	1	-	0.662075118244
+	28.	Power Plays	-	704	-	1	-	0.673542812107
+	29.	Disarming Iraq	-	609	-	1	-	0.683822788953
+	30.	The Savage Nation	-	513	-	1	-	0.688109055292
+	31.	Weapons of Mass Deception	-	484	-	1	-	0.693249204533
+	32.	Dangerous Dimplomacy	-	432	-	1	-	0.696244140301
+	33.	Plan of Attack	-	539	-	1	-	0.704806569202
+	34.	Worse Than Watergate	-	429	-	1	-	0.71220123947
+	35.	The Choice	-	357	-	1	-	0.674181494834
+	36.	Off with Their Heads	-	255	-	1	-	0.649914301385
+	37.	Legacy	-	260	-	1	-	0.621336292232
+	38.	Ghost Wars	-	247	-	4	-	0.61803011803
+	39.	Bush Country	-	224	-	1	-	0.597518073325
+	40.	American Dynasty	-	182	-	1	-	0.586185035365
+	41.	Soft Power	-	180	-	3	-	0.608458973976
+	42.	Fanatics and Fools	-	135	-	5	-	0.509670832312
+	43.	We're Right They're Wrong	-	108	-	3	-	0.543584415584
+	44.	The Death of Right and Wrong	-	78	-	2	-	0.573178210678
+	45.	Charlie Wilson's War	-	77	-	3	-	0.505945165945
+	46.	The Third Terrorist	-	54	-	2	-	0.49691935971
+	47.	Big Lies	-	45	-	2	-	0.503174603175
+	48.	Against All Enemies	-	40	-	6	-	0.486666666667
+	49.	All the Shah's Men	-	9	-	1	-	0.500980392157
+	50.	Betrayal	-	9	-	1	-	0.516161616162
+	51.	Breakdown	-	9	-	3	-	0.567777777778
+	52.	Fighting Back	-	9	-	1	-	0.587356321839
+	53.	Ten Minutes from Normal	-	9	-	3	-	0.655128205128
+	54.	The Exception to the Rulers	-	9	-	1	-	0.684
+	55.	The New Pearl Harbor	-	9	-	1	-	0.718055555556
+	56.	The Politics of Truth	-	8	-	1	-	0.763768115942
+	57.	The Real America	-	7	-	5	-	0.781481481481
+	58.	Thieves in High Places	-	6	-	4	-	0.838095238095
+	59.	1000 Years for Revenge	-	4	-	4	-	0.84
+	60.	Bush at War	-	4	-	4	-	0.844444444444
+	61.	America Unbound	-	4	-	1	-	0.866666666667
+	62.	Rogue Nation	-	3	-	5	-	0.0
+
+Clusters:
+
+	Arrogance
+	Give Me a Break
+	Deliver Us from Evil, Why Courage Matters
+	Buck Up Suck Up, The Future of Freedom
+	Downsize This!, Rise of the Vulcans, Rush Limbaugh Is a Big Fat Idiot, The Best Democracy Money Can Buy
+	The Bubble of American Supremacy, What Liberal Media?
+	House of Bush, House of Saud
+	Shut Up and Sing
+	Hating America
+	Tales from the Left Coast
+	The Clinton Wars
+	MoveOn's 50 Ways to Love Your Country, The Buying of the President 2004
+	Bushwomen
+	Spin Sisters
+	Perfectly Legal
+	Hollywood Interrupted, Rumsfeld's War
+	Dereliction of Duty, Who's Looking Out for You?
+	Bias, The O'Reilly Factor, Those Who Trespass, Useful Idiots
+	Had Enough?, It's Still the Economy, Stupid!, Shrub
+	Bush vs. the Beltway, Empire, Sleeping With the Devil
+	Living History, The Lies of George W. Bush, The Price of Loyalty
+	Surprise, Security, the American Experience, The Culture of Fear, The Faith of George W Bush, Things Worth Fighting For
+
+DB Index:				0.726837481404
+Average Silhouette Coefficient:	0.846272246272

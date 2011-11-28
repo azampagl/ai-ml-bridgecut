@@ -14,11 +14,9 @@ class EdgeBBridgeCut(BridgeCut):
         """
         @see parent
         """
-        # Get all the shortest paths.
-        paths = graph.paths()
         edges = graph.edges()
         
-        btwns_ranks = self.ranks(paths, edges, lambda edge: edge.btwns(paths))
+        btwns_ranks = self.ranks(edges, lambda edge: edge.btwns())
         
         ranks = sorted([(edge, btwns_ranks[edge]) for edge in edges], key=lambda v: v[1], reverse=True)
         

@@ -1,0 +1,60 @@
+Top Items Removed:
+
+	#	-	Item	-	Rank	-	Nodes Removed	-	Clustering Coefficient
+
+	1.	Fantine	-	627	-	1	-	0.574929188029
+	2.	LtGillenormand	-	500	-	1	-	0.559201719849
+	3.	Thenardier	-	425	-	1	-	0.562568737569
+	4.	Magnon	-	351	-	2	-	0.558818237094
+	5.	Boulatruelle	-	345	-	1	-	0.552821016003
+	6.	Cosette	-	304	-	1	-	0.515104711226
+	7.	MmeThenardier	-	288	-	5	-	0.546854681918
+	8.	Labarre	-	216	-	9	-	0.599798934725
+	9.	BaronessT	-	126	-	2	-	0.612685955415
+	10.	Babet	-	78	-	1	-	0.623674312492
+	11.	Jondrette	-	42	-	2	-	0.649074074074
+	12.	Fauchelevent	-	35	-	6	-	0.611666666667
+	13.	Champtercier	-	11	-	1	-	0.625748556999
+	14.	Count	-	11	-	1	-	0.64057770395
+	15.	CountessDeLo	-	11	-	1	-	0.656283068783
+	16.	Cravatte	-	11	-	1	-	0.67310298103
+	17.	Geborand	-	11	-	1	-	0.691597222222
+	18.	Gillenormand	-	11	-	1	-	0.70933048433
+	19.	Marius	-	11	-	3	-	0.768441358025
+	20.	MmeMagloire	-	11	-	1	-	0.795158730159
+	21.	MotherInnocent	-	11	-	3	-	0.869704861111
+	22.	Myriel	-	11	-	4	-	0.910615079365
+	23.	Valjean	-	10	-	1	-	0.948868312757
+	24.	Child1	-	9	-	1	-	0.910317460317
+	25.	Toussaint	-	7	-	1	-	0.949543345543
+	26.	Bamatabois	-	8	-	10	-	0.941831501832
+	27.	Brujon	-	6	-	1	-	0.967032967033
+	28.	Child2	-	3	-	1	-	0.968531468531
+	29.	Claquesous	-	3	-	1	-	0.972727272727
+	30.	Gueulemer	-	3	-	12	-	0.0
+
+Clusters:
+
+	MmePontmercy
+	Cochepaille, MlleGillenormand
+	Eponine
+	Pontmercy
+	Montparnasse
+	Simplice
+	Isabeau
+	OldMan
+	Marguerite
+	Scaufflaire
+	Anzelma
+	MmeDeR
+	Grantaire
+	Gribier
+	Brevet, Champmathieu, Chenildieu, Judge, Woman1
+	Gavroche, MlleVaubois
+	Javert, Woman2
+	MlleBaptistine, MmeHucheloup, Napoleon
+	Blacheville, Dahlia, Fameuil, Favourite, Gervais, Listolier, Perpetue, Tholomyes, Zephine
+	Bahorel, Bossuet, Combeferre, Courfeyrac, Enjolras, Feuilly, Joly, Mabeuf, MmeBurgon, MotherPlutarch, Prouvaire
+
+DB Index:				0.914524765881
+Average Silhouette Coefficient:	0.775541125541

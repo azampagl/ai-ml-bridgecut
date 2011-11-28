@@ -14,11 +14,9 @@ class VertexBBridgeCut(BridgeCut):
         """
         @see parent
         """
-        # Get all the shortest paths.
-        paths = graph.paths()
         nodes = graph.nodes
         
-        btwns_ranks = self.ranks(paths, nodes, lambda node: node.btwns(paths))
+        btwns_ranks = self.ranks(nodes, lambda node: node.btwns())
         
         ranks = sorted([(node, btwns_ranks[node]) for node in nodes], key=lambda v: v[1], reverse=True)
         

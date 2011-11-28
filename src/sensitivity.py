@@ -9,10 +9,10 @@ using the threshold parameters.
 import commands
 import os
 
-INPUT = '../data/polbooks/polbooks.txt'
-OUTPUT = '../results/polbooks'
+INPUT = '../data/lesmis/lesmis.txt'
+OUTPUT = '../results/lesmis'
 
-for d in range(2, 5):
+for d in range(1, 2):
     
     results = {'edge-c': {},
                'vertex-c': {},

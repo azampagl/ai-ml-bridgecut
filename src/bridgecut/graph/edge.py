@@ -50,26 +50,11 @@ class Edge(object):
         
         return num / float(den)
     
-    def btwns(self, paths):
+    def btwns(self):
         """
-        Find the betweenness centrality for this edge.
-        
-        Key arguments:
-        paths -- a dictionary of all the shortest paths.
+        Find the egocentric betweenness centrality for this edge.
         """
-        ret = 0.0
-        
-        for node1, node2 in combinations(paths.keys(), 2):
-            # There theoretically can be no shortests paths if we deleted
-            #  a bridge, but the density of the new clusters didn't meet the threshold.
-            if paths[node1][node2] != None:
-                # A direct path from one to another still counts as a shortest path.
-                if len(paths[node1][node2]) == 0:
-                    ret += 1.0
-                else:
-                    ret += sum([1 for path in paths[node1][node2] if self.node1 in path and self.node2 in path]) / float(len(paths[node1][node2]))
-        
-        return ret
+        return self.node1.btwns() + self.node2.btwns()
     
     def destroy(self):
         """

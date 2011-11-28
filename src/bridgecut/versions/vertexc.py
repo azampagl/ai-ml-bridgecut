@@ -14,12 +14,10 @@ class VertexCBridgeCut(BridgeCut):
         """
         @see parent
         """
-        # Get all the shortest paths.
-        paths = graph.paths()
         nodes = graph.nodes
         
-        btwns_ranks = self.ranks(paths, nodes, lambda node: node.btwns(paths))
-        bridge_ranks = self.ranks(paths, nodes, lambda node: node.bridge_coeff())
+        btwns_ranks = self.ranks(nodes, lambda node: node.btwns())
+        bridge_ranks = self.ranks(nodes, lambda node: node.bridge_coeff())
         
         ranks = sorted([(node, btwns_ranks[node] * bridge_ranks[node]) for node in nodes], key=lambda v: v[1], reverse=True)
         
@@ -31,7 +29,7 @@ class VertexCBridgeCut(BridgeCut):
             for node in nodes:
                 bridge_reranks[node] = bridge_ranks[node]      
             for i in range(2, d + 1):
-                tmp_ranks = self.ranks(paths, nodes, lambda node: node.bridge_coeff(i))
+                tmp_ranks = self.ranks(nodes, lambda node: node.bridge_coeff(i))
                 for node in tmp_ranks:
                     bridge_reranks[node] += tmp_ranks[node]
             # Find the new ranks.
