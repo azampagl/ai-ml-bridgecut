@@ -3,11 +3,11 @@
 @copyright 2011 Aaron Zampaglione
 @license MIT
 """
-VERSIONS = {'edge-c': '../results/lesmis/d2/results-edge-c-0.7.txt',
-           'vertex-c': '../results/lesmis/d2/results-vertex-c-0.7.txt',
+VERSIONS = {'edge-c': '../results/polbooks/d1/results-edge-c-0.7.txt',
+           'vertex-c': '../results/polbooks/d1/results-vertex-c-0.7.txt',
             }
 
-NUM_NODES = 77
+NUM_NODES = 105
 
 results = {'edge-c': {},
            'vertex-c': {},

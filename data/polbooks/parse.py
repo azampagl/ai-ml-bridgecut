@@ -10,6 +10,8 @@ import netconv
 n = netconv.Network()
 netconv.importGML(n, 'polbooks.gml')
 
+print(len(n.getAllNodes()))
+
 out = open('polbooks.txt', 'a')
 for pair in n.toList():
     out.write(pair[0] + '\t' + pair[1] + '\n')

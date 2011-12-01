@@ -1,0 +1,83 @@
+Top Items Removed:
+
+	#	-	Item	-	Rank	-	Nodes Removed	-	Clustering Coefficient
+
+	1.	The Official Handbook Vast Right Wing Conspiracy	-	10416	-	1	-	0.492776184029
+	2.	Meant To Be	-	10112	-	1	-	0.500912772114
+	3.	Allies	-	9072	-	1	-	0.503648356329
+	4.	Why America Slept	-	8910	-	1	-	0.51278198761
+	5.	All the Shah's Men	-	8448	-	1	-	0.515904502334
+	6.	Persecution	-	7812	-	1	-	0.518161998919
+	7.	The Bushes	-	8125	-	1	-	0.521285628632
+	8.	We Will Prevail	-	7326	-	1	-	0.526516150949
+	9.	The Perfect Wife	-	7120	-	1	-	0.532825563763
+	10.	Spin Sisters	-	8840	-	1	-	0.536619189932
+	11.	Surprise, Security, the American Experience	-	7144	-	1	-	0.54063999452
+	12.	Colossus	-	6510	-	1	-	0.543824483387
+	13.	The Man Who Warned America	-	6474	-	1	-	0.556641446918
+	14.	Things Worth Fighting For	-	5166	-	1	-	0.555527521521
+	15.	Losing Bin Laden	-	4480	-	1	-	0.560078771397
+	16.	Bushwhacked	-	5400	-	1	-	0.565530737355
+	17.	The Great Unraveling	-	4320	-	1	-	0.557531717956
+	18.	Soft Power	-	5040	-	3	-	0.573287739374
+	19.	Freethinkers	-	3976	-	1	-	0.579042586832
+	20.	Stupid White Men	-	3774	-	1	-	0.595486243129
+	21.	Let Freedom Ring	-	3237	-	1	-	0.603410922832
+	22.	The Sorrows of Empire	-	3009	-	1	-	0.624433659702
+	23.	The Enemy Within	-	2560	-	1	-	0.629988194257
+	24.	Dude, Where's My Country?	-	2350	-	1	-	0.639813421459
+	25.	Weapons of Mass Deception	-	2184	-	1	-	0.64242542902
+	26.	Lies and the Lying Liars Who Tell Them	-	2002	-	1	-	0.650481442284
+	27.	Disarming Iraq	-	1938	-	1	-	0.659753485317
+	28.	The Choice	-	1925	-	1	-	0.664327302327
+	29.	Plan of Attack	-	1750	-	1	-	0.667608217608
+	30.	Dangerous Dimplomacy	-	2072	-	5	-	0.656678833149
+	31.	The Right Man	-	1392	-	1	-	0.644538595169
+	32.	A National Party No More	-	1290	-	2	-	0.657483890769
+	33.	Endgame	-	1247	-	1	-	0.659273594549
+	34.	The French Betrayal of America	-	1200	-	1	-	0.66891881513
+	35.	American Dynasty	-	1008	-	1	-	0.685007752471
+	36.	Slander	-	896	-	1	-	0.694608037967
+	37.	The Third Terrorist	-	819	-	1	-	0.692543439096
+	38.	Tales from the Left Coast	-	812	-	1	-	0.693710189593
+	39.	Dereliction of Duty	-	736	-	2	-	0.709141002675
+	40.	Betrayal	-	770	-	1	-	0.708445599235
+	41.	Off with Their Heads	-	690	-	1	-	0.711083410637
+	42.	Had Enough?	-	667	-	3	-	0.69551580495
+	43.	Power Plays	-	551	-	1	-	0.719219455758
+	44.	Charlie Wilson's War	-	448	-	5	-	0.704118340289
+	45.	Downsize This!	-	324	-	1	-	0.698116135073
+	46.	Rush Limbaugh Is a Big Fat Idiot	-	400	-	3	-	0.693410207364
+	47.	Hillary's Scheme	-	286	-	1	-	0.671383510669
+	48.	The O'Reilly Factor	-	238	-	1	-	0.678736439712
+	49.	Bias	-	228	-	1	-	0.654317765568
+	50.	Those Who Trespass	-	273	-	2	-	0.680158292
+	51.	Against All Enemies	-	153	-	2	-	0.645212041045
+	52.	MoveOn's 50 Ways to Love Your Country	-	160	-	1	-	0.618268398268
+	53.	Fanatics and Fools	-	128	-	18	-	0.682195908666
+	54.	Ghost Wars	-	36	-	1	-	0.503571428571
+	55.	The Death of Right and Wrong	-	18	-	1	-	0.430105820106
+	56.	Legacy	-	25	-	15	-	0.0
+
+Clusters:
+
+	Buck Up Suck Up, The Future of Freedom
+	America Unbound, Rogue Nation, The Culture of Fear, The Faith of George W Bush
+	Arrogance
+	Fighting Back
+	It's Still the Economy, Stupid!, Shrub
+	1000 Years for Revenge, Bush vs. the Beltway, Empire, Sleeping With the Devil
+	Rise of the Vulcans, The Best Democracy Money Can Buy
+	Useful Idiots
+	Bushwomen
+	Thieves in High Places
+	The Bubble of American Supremacy, We're Right They're Wrong, What Liberal Media?
+	Big Lies, Bush at War, Hegemony or Survival, Living History, Perfectly Legal, The Clinton Wars, The Exception to the Rulers, The Lies of George W. Bush, The New Pearl Harbor, The Politics of Truth, The Price of Loyalty, Worse Than Watergate
+	The Buying of the President 2004
+	Deliver Us from Evil, Give Me a Break, Hating America, The Real America, The Savage Nation, Who's Looking Out for You?, Why Courage Matters
+	Breakdown, Bush Country, Hollywood Interrupted, Rumsfeld's War, Ten Minutes from Normal
+	Shut Up and Sing
+	House of Bush, House of Saud
+
+DB Index:				1.41119626634
+Average Silhouette Coefficient:	0.731597770421

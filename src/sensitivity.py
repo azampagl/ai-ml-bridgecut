@@ -12,7 +12,7 @@ import os
 INPUT = '../data/polbooks/polbooks.txt'
 OUTPUT = '../results/polbooks'
 
-for d in range(2, 5):
+for d in range(3, 5):
     
     results = {'edge-c': {},
                'vertex-c': {},
