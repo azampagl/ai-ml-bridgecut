@@ -1,4 +1,4 @@
-An attempt to determine important parts in a graph
+An attempt to determine important clusters in a graph.
 
 Original algorithm based on:
 Bridging Centrality: Graph Mining
