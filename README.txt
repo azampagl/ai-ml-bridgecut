@@ -1,18 +1,8 @@
-============================================
-Python BridgeCut
+An attempt to determine important parts in a graph
 
-Aaron Zampaglione <azampagl@my.fit.edu>
-CSE 5800 Advanced Topics in CS: Learning/Mining and the Internet, Fall 2011
-Proj 04, Bridge Cut
-Python >=2.4
-(c) 2011 Aaron Zampaglione
-============================================
-
-Python implementation of Bridge Cut algorithm.
-
+Original algorithm based on:
 Bridging Centrality: Graph Mining
 from Element Level to Group Level
-
 @see http://dl.acm.org/citation.cfm?id=1401934
 
 The style guide follows the strict python PEP 8 guidelines.
